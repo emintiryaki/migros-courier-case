@@ -1,0 +1,79 @@
+{
+	"info": {
+		"_postman_id": "39f7f73b-7ce2-49c8-836a-0dc42e038d62",
+		"name": "Migros Courier Case",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json"
+	},
+	"item": [
+		{
+			"name": "change-courier-location",
+			"request": {
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "[\r\n  {\r\n    \"courierId\": 1,\r\n    \"lat\": 40.9924527,\r\n    \"lng\": 29.124579,\r\n    \"time\": \"2023-07-23T19:43:58\"\r\n  },\r\n  {\r\n    \"courierId\": 2,\r\n    \"lat\": 40.986556,\r\n    \"lng\": 29.1164493,\r\n    \"time\": \"2023-07-23T19:43:58\"\r\n  },\r\n  {\r\n    \"courierId\": 3,\r\n    \"lat\": 41.0066971,\r\n    \"lng\": 28.6552592,\r\n    \"time\": \"2023-07-23T19:43:58\"\r\n  },\r\n  {\r\n    \"courierId\": 4,\r\n    \"lat\": 41.055799,\r\n    \"lng\": 29.0210499,\r\n    \"time\": \"2023-07-23T19:43:58\"\r\n  },\r\n  {\r\n    \"courierId\": 5,\r\n    \"lat\": 40.9632663,\r\n    \"lng\": 29.0630968,\r\n    \"time\": \"2023-07-23T19:43:58\"\r\n  }\r\n]",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "http://localhost:8100/courier/change-courier-location",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "8100",
+					"path": [
+						"courier",
+						"change-courier-location"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "get-all-couriers",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "http://localhost:8100/courier/get-all-couriers",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "8100",
+					"path": [
+						"courier",
+						"get-all-couriers"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "get-total-travel-distance/{courierId}",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "http://localhost:8100/courier/get-total-travel-distance/4",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "8100",
+					"path": [
+						"courier",
+						"get-total-travel-distance",
+						"4"
+					]
+				}
+			},
+			"response": []
+		}
+	]
+}

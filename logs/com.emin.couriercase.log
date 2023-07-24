@@ -1,0 +1,1077 @@
+2023-07-24T17:10:42.406+03:00  INFO 77528 --- [main] c.e.couriercase.CouriercaseApplication   : Starting CouriercaseApplication using Java 17.0.7 with PID 77528 (C:\Users\MEHMET\Desktop\MÝGROS\migros-courier-case\target\classes started by MEHMET in C:\Users\MEHMET\Desktop\MÝGROS\migros-courier-case)
+2023-07-24T17:10:42.420+03:00  INFO 77528 --- [main] c.e.couriercase.CouriercaseApplication   : No active profile set, falling back to 1 default profile: "default"
+2023-07-24T17:10:43.980+03:00  INFO 77528 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2023-07-24T17:10:44.132+03:00  INFO 77528 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 129 ms. Found 2 JPA repository interfaces.
+2023-07-24T17:10:45.487+03:00  INFO 77528 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8100 (http)
+2023-07-24T17:10:45.511+03:00  INFO 77528 --- [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2023-07-24T17:10:45.512+03:00  INFO 77528 --- [main] o.apache.catalina.core.StandardEngine    : Starting Servlet engine: [Apache Tomcat/10.1.11]
+2023-07-24T17:10:45.700+03:00  INFO 77528 --- [main] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2023-07-24T17:10:45.702+03:00  INFO 77528 --- [main] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 3176 ms
+2023-07-24T17:10:45.781+03:00  INFO 77528 --- [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
+2023-07-24T17:10:46.119+03:00  INFO 77528 --- [main] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Added connection conn0: url=jdbc:h2:mem:couriertestdb user=SA
+2023-07-24T17:10:46.123+03:00  INFO 77528 --- [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
+2023-07-24T17:10:46.149+03:00  INFO 77528 --- [main] o.s.b.a.h2.H2ConsoleAutoConfiguration    : H2 console available at '/h2-console'. Database available at 'jdbc:h2:mem:couriertestdb'
+2023-07-24T17:10:46.459+03:00  INFO 77528 --- [main] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [name: default]
+2023-07-24T17:10:46.597+03:00  INFO 77528 --- [main] org.hibernate.Version                    : HHH000412: Hibernate ORM core version 6.2.6.Final
+2023-07-24T17:10:46.606+03:00  INFO 77528 --- [main] org.hibernate.cfg.Environment            : HHH000406: Using bytecode reflection optimizer
+2023-07-24T17:10:46.817+03:00  INFO 77528 --- [main] o.h.b.i.BytecodeProviderInitiator        : HHH000021: Bytecode provider name : bytebuddy
+2023-07-24T17:10:47.043+03:00  INFO 77528 --- [main] o.s.o.j.p.SpringPersistenceUnitInfo      : No LoadTimeWeaver setup: ignoring JPA class transformer
+2023-07-24T17:10:47.480+03:00  INFO 77528 --- [main] o.h.b.i.BytecodeProviderInitiator        : HHH000021: Bytecode provider name : bytebuddy
+2023-07-24T17:10:48.636+03:00  INFO 77528 --- [main] o.h.e.t.j.p.i.JtaPlatformInitiator       : HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2023-07-24T17:10:48.720+03:00  INFO 77528 --- [main] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2023-07-24T17:10:49.590+03:00  WARN 77528 --- [main] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2023-07-24T17:10:50.260+03:00  INFO 77528 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8100 (http) with context path ''
+2023-07-24T17:10:50.280+03:00  INFO 77528 --- [main] c.e.couriercase.CouriercaseApplication   : Started CouriercaseApplication in 8.794 seconds (process running for 9.791)
+2023-07-24T17:11:23.201+03:00  INFO 77528 --- [http-nio-8100-exec-1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2023-07-24T17:11:23.203+03:00  INFO 77528 --- [http-nio-8100-exec-1] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2023-07-24T17:11:23.205+03:00  INFO 77528 --- [http-nio-8100-exec-1] o.s.web.servlet.DispatcherServlet        : Completed initialization in 2 ms
+2023-07-24T17:11:24.436+03:00  INFO 77528 --- [http-nio-8100-exec-9] o.springdoc.api.AbstractOpenApiResource  : Init duration for springdoc-openapi is: 437 ms
+2023-07-24T17:40:23.400+03:00  INFO 79020 --- [main] c.e.couriercase.CouriercaseApplication   : Starting CouriercaseApplication using Java 17.0.7 with PID 79020 (C:\Users\MEHMET\Desktop\MÝGROS\migros-courier-case\target\classes started by MEHMET in C:\Users\MEHMET\Desktop\MÝGROS\migros-courier-case)
+2023-07-24T17:40:23.406+03:00  INFO 79020 --- [main] c.e.couriercase.CouriercaseApplication   : No active profile set, falling back to 1 default profile: "default"
+2023-07-24T17:40:25.020+03:00  INFO 79020 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2023-07-24T17:40:25.156+03:00  INFO 79020 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 117 ms. Found 2 JPA repository interfaces.
+2023-07-24T17:40:26.506+03:00  INFO 79020 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8100 (http)
+2023-07-24T17:40:26.533+03:00  INFO 79020 --- [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2023-07-24T17:40:26.535+03:00  INFO 79020 --- [main] o.apache.catalina.core.StandardEngine    : Starting Servlet engine: [Apache Tomcat/10.1.11]
+2023-07-24T17:40:26.723+03:00  INFO 79020 --- [main] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2023-07-24T17:40:26.725+03:00  INFO 79020 --- [main] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 3198 ms
+2023-07-24T17:40:26.807+03:00  INFO 79020 --- [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
+2023-07-24T17:40:27.150+03:00  INFO 79020 --- [main] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Added connection conn0: url=jdbc:h2:mem:couriertestdb user=SA
+2023-07-24T17:40:27.155+03:00  INFO 79020 --- [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
+2023-07-24T17:40:27.183+03:00  INFO 79020 --- [main] o.s.b.a.h2.H2ConsoleAutoConfiguration    : H2 console available at '/h2-console'. Database available at 'jdbc:h2:mem:couriertestdb'
+2023-07-24T17:40:27.448+03:00  INFO 79020 --- [main] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [name: default]
+2023-07-24T17:40:27.611+03:00  INFO 79020 --- [main] org.hibernate.Version                    : HHH000412: Hibernate ORM core version 6.2.6.Final
+2023-07-24T17:40:27.619+03:00  INFO 79020 --- [main] org.hibernate.cfg.Environment            : HHH000406: Using bytecode reflection optimizer
+2023-07-24T17:40:27.916+03:00  INFO 79020 --- [main] o.h.b.i.BytecodeProviderInitiator        : HHH000021: Bytecode provider name : bytebuddy
+2023-07-24T17:40:28.173+03:00  INFO 79020 --- [main] o.s.o.j.p.SpringPersistenceUnitInfo      : No LoadTimeWeaver setup: ignoring JPA class transformer
+2023-07-24T17:40:28.595+03:00  INFO 79020 --- [main] o.h.b.i.BytecodeProviderInitiator        : HHH000021: Bytecode provider name : bytebuddy
+2023-07-24T17:40:29.822+03:00  INFO 79020 --- [main] o.h.e.t.j.p.i.JtaPlatformInitiator       : HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2023-07-24T17:40:29.951+03:00  INFO 79020 --- [main] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2023-07-24T17:40:30.818+03:00  WARN 79020 --- [main] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2023-07-24T17:40:31.445+03:00  INFO 79020 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8100 (http) with context path ''
+2023-07-24T17:40:31.465+03:00  INFO 79020 --- [main] c.e.couriercase.CouriercaseApplication   : Started CouriercaseApplication in 8.984 seconds (process running for 10.201)
+2023-07-24T17:40:36.538+03:00  INFO 79020 --- [http-nio-8100-exec-1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2023-07-24T17:40:36.540+03:00  INFO 79020 --- [http-nio-8100-exec-1] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2023-07-24T17:40:36.544+03:00  INFO 79020 --- [http-nio-8100-exec-1] o.s.web.servlet.DispatcherServlet        : Completed initialization in 2 ms
+2023-07-24T17:40:37.552+03:00  INFO 79020 --- [http-nio-8100-exec-5] o.springdoc.api.AbstractOpenApiResource  : Init duration for springdoc-openapi is: 453 ms
+2023-07-24T17:48:21.135+03:00  INFO 93756 --- [main] c.e.couriercase.CouriercaseApplication   : Starting CouriercaseApplication using Java 17.0.7 with PID 93756 (C:\Users\MEHMET\Desktop\MÝGROS\migros-courier-case\target\classes started by MEHMET in C:\Users\MEHMET\Desktop\MÝGROS\migros-courier-case)
+2023-07-24T17:48:21.141+03:00  INFO 93756 --- [main] c.e.couriercase.CouriercaseApplication   : No active profile set, falling back to 1 default profile: "default"
+2023-07-24T17:48:23.057+03:00  INFO 93756 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2023-07-24T17:48:23.224+03:00  INFO 93756 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 147 ms. Found 2 JPA repository interfaces.
+2023-07-24T17:48:24.736+03:00  INFO 93756 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8100 (http)
+2023-07-24T17:48:24.762+03:00  INFO 93756 --- [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2023-07-24T17:48:24.764+03:00  INFO 93756 --- [main] o.apache.catalina.core.StandardEngine    : Starting Servlet engine: [Apache Tomcat/10.1.11]
+2023-07-24T17:48:24.994+03:00  INFO 93756 --- [main] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2023-07-24T17:48:24.996+03:00  INFO 93756 --- [main] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 3663 ms
+2023-07-24T17:48:25.064+03:00  INFO 93756 --- [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
+2023-07-24T17:48:25.394+03:00  INFO 93756 --- [main] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Added connection conn0: url=jdbc:h2:mem:couriertestdb user=SA
+2023-07-24T17:48:25.399+03:00  INFO 93756 --- [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
+2023-07-24T17:48:25.424+03:00  INFO 93756 --- [main] o.s.b.a.h2.H2ConsoleAutoConfiguration    : H2 console available at '/h2-console'. Database available at 'jdbc:h2:mem:couriertestdb'
+2023-07-24T17:48:25.687+03:00  INFO 93756 --- [main] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [name: default]
+2023-07-24T17:48:25.804+03:00  INFO 93756 --- [main] org.hibernate.Version                    : HHH000412: Hibernate ORM core version 6.2.6.Final
+2023-07-24T17:48:25.811+03:00  INFO 93756 --- [main] org.hibernate.cfg.Environment            : HHH000406: Using bytecode reflection optimizer
+2023-07-24T17:48:26.158+03:00  INFO 93756 --- [main] o.h.b.i.BytecodeProviderInitiator        : HHH000021: Bytecode provider name : bytebuddy
+2023-07-24T17:48:26.443+03:00  INFO 93756 --- [main] o.s.o.j.p.SpringPersistenceUnitInfo      : No LoadTimeWeaver setup: ignoring JPA class transformer
+2023-07-24T17:48:26.929+03:00  INFO 93756 --- [main] o.h.b.i.BytecodeProviderInitiator        : HHH000021: Bytecode provider name : bytebuddy
+2023-07-24T17:48:28.298+03:00  INFO 93756 --- [main] o.h.e.t.j.p.i.JtaPlatformInitiator       : HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2023-07-24T17:48:28.441+03:00  INFO 93756 --- [main] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2023-07-24T17:48:29.374+03:00  WARN 93756 --- [main] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2023-07-24T17:48:30.068+03:00  INFO 93756 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8100 (http) with context path ''
+2023-07-24T17:48:30.090+03:00  INFO 93756 --- [main] c.e.couriercase.CouriercaseApplication   : Started CouriercaseApplication in 9.821 seconds (process running for 11.156)
+2023-07-24T17:48:39.360+03:00  INFO 93756 --- [http-nio-8100-exec-1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2023-07-24T17:48:39.362+03:00  INFO 93756 --- [http-nio-8100-exec-1] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2023-07-24T17:48:39.365+03:00  INFO 93756 --- [http-nio-8100-exec-1] o.s.web.servlet.DispatcherServlet        : Completed initialization in 2 ms
+2023-07-24T17:48:40.517+03:00  INFO 93756 --- [http-nio-8100-exec-4] o.springdoc.api.AbstractOpenApiResource  : Init duration for springdoc-openapi is: 453 ms
+2023-07-24T17:51:43.554+03:00  INFO 120940 --- [main] c.e.couriercase.CouriercaseApplication   : Starting CouriercaseApplication using Java 17.0.7 with PID 120940 (C:\Users\MEHMET\Desktop\MÝGROS\migros-courier-case\target\classes started by MEHMET in C:\Users\MEHMET\Desktop\MÝGROS\migros-courier-case)
+2023-07-24T17:51:43.561+03:00  INFO 120940 --- [main] c.e.couriercase.CouriercaseApplication   : No active profile set, falling back to 1 default profile: "default"
+2023-07-24T17:51:45.461+03:00  INFO 120940 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2023-07-24T17:51:45.634+03:00  INFO 120940 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 142 ms. Found 2 JPA repository interfaces.
+2023-07-24T17:51:47.033+03:00  INFO 120940 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8100 (http)
+2023-07-24T17:51:47.068+03:00  INFO 120940 --- [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2023-07-24T17:51:47.069+03:00  INFO 120940 --- [main] o.apache.catalina.core.StandardEngine    : Starting Servlet engine: [Apache Tomcat/10.1.11]
+2023-07-24T17:51:47.302+03:00  INFO 120940 --- [main] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2023-07-24T17:51:47.304+03:00  INFO 120940 --- [main] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 3564 ms
+2023-07-24T17:51:47.373+03:00  INFO 120940 --- [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
+2023-07-24T17:51:47.702+03:00  INFO 120940 --- [main] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Added connection conn0: url=jdbc:h2:mem:couriertestdb user=SA
+2023-07-24T17:51:47.708+03:00  INFO 120940 --- [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
+2023-07-24T17:51:47.736+03:00  INFO 120940 --- [main] o.s.b.a.h2.H2ConsoleAutoConfiguration    : H2 console available at '/h2-console'. Database available at 'jdbc:h2:mem:couriertestdb'
+2023-07-24T17:51:48.020+03:00  INFO 120940 --- [main] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [name: default]
+2023-07-24T17:51:48.147+03:00  INFO 120940 --- [main] org.hibernate.Version                    : HHH000412: Hibernate ORM core version 6.2.6.Final
+2023-07-24T17:51:48.153+03:00  INFO 120940 --- [main] org.hibernate.cfg.Environment            : HHH000406: Using bytecode reflection optimizer
+2023-07-24T17:51:48.406+03:00  INFO 120940 --- [main] o.h.b.i.BytecodeProviderInitiator        : HHH000021: Bytecode provider name : bytebuddy
+2023-07-24T17:51:48.621+03:00  INFO 120940 --- [main] o.s.o.j.p.SpringPersistenceUnitInfo      : No LoadTimeWeaver setup: ignoring JPA class transformer
+2023-07-24T17:51:49.028+03:00  INFO 120940 --- [main] o.h.b.i.BytecodeProviderInitiator        : HHH000021: Bytecode provider name : bytebuddy
+2023-07-24T17:51:50.182+03:00  INFO 120940 --- [main] o.h.e.t.j.p.i.JtaPlatformInitiator       : HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2023-07-24T17:51:50.280+03:00  INFO 120940 --- [main] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2023-07-24T17:51:51.025+03:00  WARN 120940 --- [main] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2023-07-24T17:51:51.720+03:00  INFO 120940 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8100 (http) with context path ''
+2023-07-24T17:51:51.739+03:00  INFO 120940 --- [main] c.e.couriercase.CouriercaseApplication   : Started CouriercaseApplication in 9.002 seconds (process running for 9.773)
+2023-07-24T17:52:01.273+03:00  INFO 120940 --- [http-nio-8100-exec-1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2023-07-24T17:52:01.274+03:00  INFO 120940 --- [http-nio-8100-exec-1] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2023-07-24T17:52:01.277+03:00  INFO 120940 --- [http-nio-8100-exec-1] o.s.web.servlet.DispatcherServlet        : Completed initialization in 1 ms
+2023-07-24T17:52:02.459+03:00  INFO 120940 --- [http-nio-8100-exec-4] o.springdoc.api.AbstractOpenApiResource  : Init duration for springdoc-openapi is: 518 ms
+2023-07-24T17:52:35.505+03:00  INFO 118152 --- [main] c.e.couriercase.CouriercaseApplication   : Starting CouriercaseApplication using Java 17.0.7 with PID 118152 (C:\Users\MEHMET\Desktop\MÝGROS\migros-courier-case\target\classes started by MEHMET in C:\Users\MEHMET\Desktop\MÝGROS\migros-courier-case)
+2023-07-24T17:52:35.510+03:00  INFO 118152 --- [main] c.e.couriercase.CouriercaseApplication   : No active profile set, falling back to 1 default profile: "default"
+2023-07-24T17:52:37.267+03:00  INFO 118152 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2023-07-24T17:52:37.428+03:00  INFO 118152 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 139 ms. Found 2 JPA repository interfaces.
+2023-07-24T17:52:38.712+03:00  INFO 118152 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8100 (http)
+2023-07-24T17:52:38.727+03:00  INFO 118152 --- [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2023-07-24T17:52:38.728+03:00  INFO 118152 --- [main] o.apache.catalina.core.StandardEngine    : Starting Servlet engine: [Apache Tomcat/10.1.11]
+2023-07-24T17:52:38.959+03:00  INFO 118152 --- [main] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2023-07-24T17:52:38.961+03:00  INFO 118152 --- [main] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 3313 ms
+2023-07-24T17:52:39.050+03:00  INFO 118152 --- [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
+2023-07-24T17:52:39.346+03:00  INFO 118152 --- [main] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Added connection conn0: url=jdbc:h2:mem:couriertestdb user=SA
+2023-07-24T17:52:39.352+03:00  INFO 118152 --- [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
+2023-07-24T17:52:39.395+03:00  INFO 118152 --- [main] o.s.b.a.h2.H2ConsoleAutoConfiguration    : H2 console available at '/h2-console'. Database available at 'jdbc:h2:mem:couriertestdb'
+2023-07-24T17:52:39.636+03:00  INFO 118152 --- [main] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [name: default]
+2023-07-24T17:52:39.773+03:00  INFO 118152 --- [main] org.hibernate.Version                    : HHH000412: Hibernate ORM core version 6.2.6.Final
+2023-07-24T17:52:39.777+03:00  INFO 118152 --- [main] org.hibernate.cfg.Environment            : HHH000406: Using bytecode reflection optimizer
+2023-07-24T17:52:40.002+03:00  INFO 118152 --- [main] o.h.b.i.BytecodeProviderInitiator        : HHH000021: Bytecode provider name : bytebuddy
+2023-07-24T17:52:40.223+03:00  INFO 118152 --- [main] o.s.o.j.p.SpringPersistenceUnitInfo      : No LoadTimeWeaver setup: ignoring JPA class transformer
+2023-07-24T17:52:40.694+03:00  INFO 118152 --- [main] o.h.b.i.BytecodeProviderInitiator        : HHH000021: Bytecode provider name : bytebuddy
+2023-07-24T17:52:41.727+03:00  INFO 118152 --- [main] o.h.e.t.j.p.i.JtaPlatformInitiator       : HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2023-07-24T17:52:41.815+03:00  INFO 118152 --- [main] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2023-07-24T17:52:42.620+03:00  WARN 118152 --- [main] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2023-07-24T17:52:43.245+03:00  INFO 118152 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8100 (http) with context path ''
+2023-07-24T17:52:43.280+03:00  INFO 118152 --- [main] c.e.couriercase.CouriercaseApplication   : Started CouriercaseApplication in 8.734 seconds (process running for 9.752)
+2023-07-24T17:52:52.908+03:00  INFO 118152 --- [http-nio-8100-exec-1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2023-07-24T17:52:52.910+03:00  INFO 118152 --- [http-nio-8100-exec-1] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2023-07-24T17:52:52.913+03:00  INFO 118152 --- [http-nio-8100-exec-1] o.s.web.servlet.DispatcherServlet        : Completed initialization in 1 ms
+2023-07-24T17:52:53.799+03:00  INFO 118152 --- [http-nio-8100-exec-3] o.springdoc.api.AbstractOpenApiResource  : Init duration for springdoc-openapi is: 483 ms
+2023-07-24T20:35:55.274+03:00  INFO 117124 --- [main] c.e.couriercase.CouriercaseApplication   : Starting CouriercaseApplication using Java 17.0.7 with PID 117124 (C:\Users\MEHMET\Desktop\MÝGROS\migros-courier-case\target\classes started by MEHMET in C:\Users\MEHMET\Desktop\MÝGROS\migros-courier-case)
+2023-07-24T20:35:55.280+03:00  INFO 117124 --- [main] c.e.couriercase.CouriercaseApplication   : No active profile set, falling back to 1 default profile: "default"
+2023-07-24T20:35:56.276+03:00  INFO 117124 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2023-07-24T20:35:56.370+03:00  INFO 117124 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 81 ms. Found 2 JPA repository interfaces.
+2023-07-24T20:35:57.414+03:00  INFO 117124 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8100 (http)
+2023-07-24T20:35:57.443+03:00  INFO 117124 --- [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2023-07-24T20:35:57.444+03:00  INFO 117124 --- [main] o.apache.catalina.core.StandardEngine    : Starting Servlet engine: [Apache Tomcat/10.1.11]
+2023-07-24T20:35:57.642+03:00  INFO 117124 --- [main] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2023-07-24T20:35:57.643+03:00  INFO 117124 --- [main] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 2246 ms
+2023-07-24T20:35:57.764+03:00  WARN 117124 --- [main] ConfigServletWebServerApplicationContext : Exception encountered during context initialization - cancelling refresh attempt: org.springframework.beans.factory.UnsatisfiedDependencyException: Error creating bean with name 'dataSourceScriptDatabaseInitializer' defined in class path resource [org/springframework/boot/autoconfigure/sql/init/DataSourceInitializationConfiguration.class]: Unsatisfied dependency expressed through method 'dataSourceScriptDatabaseInitializer' parameter 0: Error creating bean with name 'dataSource' defined in class path resource [org/springframework/boot/autoconfigure/jdbc/DataSourceConfiguration$Hikari.class]: Failed to instantiate [com.zaxxer.hikari.HikariDataSource]: Factory method 'dataSource' threw exception with message: Cannot load driver class: org.h2.Driver
+2023-07-24T20:35:57.771+03:00  INFO 117124 --- [main] o.apache.catalina.core.StandardService   : Stopping service [Tomcat]
+2023-07-24T20:35:57.799+03:00  INFO 117124 --- [main] .s.b.a.l.ConditionEvaluationReportLogger : 
+
+Error starting ApplicationContext. To display the condition evaluation report re-run your application with 'debug' enabled.
+2023-07-24T20:35:57.846+03:00 ERROR 117124 --- [main] o.s.boot.SpringApplication               : Application run failed
+
+org.springframework.beans.factory.UnsatisfiedDependencyException: Error creating bean with name 'dataSourceScriptDatabaseInitializer' defined in class path resource [org/springframework/boot/autoconfigure/sql/init/DataSourceInitializationConfiguration.class]: Unsatisfied dependency expressed through method 'dataSourceScriptDatabaseInitializer' parameter 0: Error creating bean with name 'dataSource' defined in class path resource [org/springframework/boot/autoconfigure/jdbc/DataSourceConfiguration$Hikari.class]: Failed to instantiate [com.zaxxer.hikari.HikariDataSource]: Factory method 'dataSource' threw exception with message: Cannot load driver class: org.h2.Driver
+	at org.springframework.beans.factory.support.ConstructorResolver.createArgumentArray(ConstructorResolver.java:800) ~[spring-beans-6.0.11.jar:6.0.11]
+	at org.springframework.beans.factory.support.ConstructorResolver.instantiateUsingFactoryMethod(ConstructorResolver.java:550) ~[spring-beans-6.0.11.jar:6.0.11]
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.instantiateUsingFactoryMethod(AbstractAutowireCapableBeanFactory.java:1332) ~[spring-beans-6.0.11.jar:6.0.11]
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBeanInstance(AbstractAutowireCapableBeanFactory.java:1162) ~[spring-beans-6.0.11.jar:6.0.11]
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.doCreateBean(AbstractAutowireCapableBeanFactory.java:560) ~[spring-beans-6.0.11.jar:6.0.11]
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBean(AbstractAutowireCapableBeanFactory.java:520) ~[spring-beans-6.0.11.jar:6.0.11]
+	at org.springframework.beans.factory.support.AbstractBeanFactory.lambda$doGetBean$0(AbstractBeanFactory.java:326) ~[spring-beans-6.0.11.jar:6.0.11]
+	at org.springframework.beans.factory.support.DefaultSingletonBeanRegistry.getSingleton(DefaultSingletonBeanRegistry.java:234) ~[spring-beans-6.0.11.jar:6.0.11]
+	at org.springframework.beans.factory.support.AbstractBeanFactory.doGetBean(AbstractBeanFactory.java:324) ~[spring-beans-6.0.11.jar:6.0.11]
+	at org.springframework.beans.factory.support.AbstractBeanFactory.getBean(AbstractBeanFactory.java:200) ~[spring-beans-6.0.11.jar:6.0.11]
+	at org.springframework.beans.factory.support.AbstractBeanFactory.doGetBean(AbstractBeanFactory.java:313) ~[spring-beans-6.0.11.jar:6.0.11]
+	at org.springframework.beans.factory.support.AbstractBeanFactory.getBean(AbstractBeanFactory.java:200) ~[spring-beans-6.0.11.jar:6.0.11]
+	at org.springframework.context.support.AbstractApplicationContext.getBean(AbstractApplicationContext.java:1155) ~[spring-context-6.0.11.jar:6.0.11]
+	at org.springframework.context.support.AbstractApplicationContext.finishBeanFactoryInitialization(AbstractApplicationContext.java:932) ~[spring-context-6.0.11.jar:6.0.11]
+	at org.springframework.context.support.AbstractApplicationContext.refresh(AbstractApplicationContext.java:608) ~[spring-context-6.0.11.jar:6.0.11]
+	at org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext.refresh(ServletWebServerApplicationContext.java:146) ~[spring-boot-3.1.2.jar:3.1.2]
+	at org.springframework.boot.SpringApplication.refresh(SpringApplication.java:734) ~[spring-boot-3.1.2.jar:3.1.2]
+	at org.springframework.boot.SpringApplication.refreshContext(SpringApplication.java:436) ~[spring-boot-3.1.2.jar:3.1.2]
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:312) ~[spring-boot-3.1.2.jar:3.1.2]
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1306) ~[spring-boot-3.1.2.jar:3.1.2]
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1295) ~[spring-boot-3.1.2.jar:3.1.2]
+	at com.emin.couriercase.CouriercaseApplication.main(CouriercaseApplication.java:14) ~[classes/:na]
+Caused by: org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'dataSource' defined in class path resource [org/springframework/boot/autoconfigure/jdbc/DataSourceConfiguration$Hikari.class]: Failed to instantiate [com.zaxxer.hikari.HikariDataSource]: Factory method 'dataSource' threw exception with message: Cannot load driver class: org.h2.Driver
+	at org.springframework.beans.factory.support.ConstructorResolver.instantiate(ConstructorResolver.java:659) ~[spring-beans-6.0.11.jar:6.0.11]
+	at org.springframework.beans.factory.support.ConstructorResolver.instantiateUsingFactoryMethod(ConstructorResolver.java:647) ~[spring-beans-6.0.11.jar:6.0.11]
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.instantiateUsingFactoryMethod(AbstractAutowireCapableBeanFactory.java:1332) ~[spring-beans-6.0.11.jar:6.0.11]
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBeanInstance(AbstractAutowireCapableBeanFactory.java:1162) ~[spring-beans-6.0.11.jar:6.0.11]
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.doCreateBean(AbstractAutowireCapableBeanFactory.java:560) ~[spring-beans-6.0.11.jar:6.0.11]
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBean(AbstractAutowireCapableBeanFactory.java:520) ~[spring-beans-6.0.11.jar:6.0.11]
+	at org.springframework.beans.factory.support.AbstractBeanFactory.lambda$doGetBean$0(AbstractBeanFactory.java:326) ~[spring-beans-6.0.11.jar:6.0.11]
+	at org.springframework.beans.factory.support.DefaultSingletonBeanRegistry.getSingleton(DefaultSingletonBeanRegistry.java:234) ~[spring-beans-6.0.11.jar:6.0.11]
+	at org.springframework.beans.factory.support.AbstractBeanFactory.doGetBean(AbstractBeanFactory.java:324) ~[spring-beans-6.0.11.jar:6.0.11]
+	at org.springframework.beans.factory.support.AbstractBeanFactory.getBean(AbstractBeanFactory.java:200) ~[spring-beans-6.0.11.jar:6.0.11]
+	at org.springframework.beans.factory.config.DependencyDescriptor.resolveCandidate(DependencyDescriptor.java:254) ~[spring-beans-6.0.11.jar:6.0.11]
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.doResolveDependency(DefaultListableBeanFactory.java:1417) ~[spring-beans-6.0.11.jar:6.0.11]
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.resolveDependency(DefaultListableBeanFactory.java:1337) ~[spring-beans-6.0.11.jar:6.0.11]
+	at org.springframework.beans.factory.support.ConstructorResolver.resolveAutowiredArgument(ConstructorResolver.java:888) ~[spring-beans-6.0.11.jar:6.0.11]
+	at org.springframework.beans.factory.support.ConstructorResolver.createArgumentArray(ConstructorResolver.java:791) ~[spring-beans-6.0.11.jar:6.0.11]
+	... 21 common frames omitted
+Caused by: org.springframework.beans.BeanInstantiationException: Failed to instantiate [com.zaxxer.hikari.HikariDataSource]: Factory method 'dataSource' threw exception with message: Cannot load driver class: org.h2.Driver
+	at org.springframework.beans.factory.support.SimpleInstantiationStrategy.instantiate(SimpleInstantiationStrategy.java:171) ~[spring-beans-6.0.11.jar:6.0.11]
+	at org.springframework.beans.factory.support.ConstructorResolver.instantiate(ConstructorResolver.java:655) ~[spring-beans-6.0.11.jar:6.0.11]
+	... 35 common frames omitted
+Caused by: java.lang.IllegalStateException: Cannot load driver class: org.h2.Driver
+	at org.springframework.util.Assert.state(Assert.java:97) ~[spring-core-6.0.11.jar:6.0.11]
+	at org.springframework.boot.autoconfigure.jdbc.DataSourceProperties.determineDriverClassName(DataSourceProperties.java:175) ~[spring-boot-autoconfigure-3.1.2.jar:3.1.2]
+	at org.springframework.boot.autoconfigure.jdbc.PropertiesJdbcConnectionDetails.getDriverClassName(PropertiesJdbcConnectionDetails.java:49) ~[spring-boot-autoconfigure-3.1.2.jar:3.1.2]
+	at org.springframework.boot.autoconfigure.jdbc.DataSourceConfiguration.createDataSource(DataSourceConfiguration.java:55) ~[spring-boot-autoconfigure-3.1.2.jar:3.1.2]
+	at org.springframework.boot.autoconfigure.jdbc.DataSourceConfiguration$Hikari.dataSource(DataSourceConfiguration.java:117) ~[spring-boot-autoconfigure-3.1.2.jar:3.1.2]
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method) ~[na:na]
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(Unknown Source) ~[na:na]
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source) ~[na:na]
+	at java.base/java.lang.reflect.Method.invoke(Unknown Source) ~[na:na]
+	at org.springframework.beans.factory.support.SimpleInstantiationStrategy.instantiate(SimpleInstantiationStrategy.java:139) ~[spring-beans-6.0.11.jar:6.0.11]
+	... 36 common frames omitted
+
+2023-07-24T20:36:24.743+03:00  INFO 121464 --- [main] c.e.couriercase.CouriercaseApplication   : Starting CouriercaseApplication using Java 17.0.7 with PID 121464 (C:\Users\MEHMET\Desktop\MÝGROS\migros-courier-case\target\classes started by MEHMET in C:\Users\MEHMET\Desktop\MÝGROS\migros-courier-case)
+2023-07-24T20:36:24.748+03:00  INFO 121464 --- [main] c.e.couriercase.CouriercaseApplication   : No active profile set, falling back to 1 default profile: "default"
+2023-07-24T20:36:25.719+03:00  INFO 121464 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2023-07-24T20:36:25.833+03:00  INFO 121464 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 97 ms. Found 2 JPA repository interfaces.
+2023-07-24T20:36:26.571+03:00  INFO 121464 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8100 (http)
+2023-07-24T20:36:26.583+03:00  INFO 121464 --- [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2023-07-24T20:36:26.584+03:00  INFO 121464 --- [main] o.apache.catalina.core.StandardEngine    : Starting Servlet engine: [Apache Tomcat/10.1.11]
+2023-07-24T20:36:26.727+03:00  INFO 121464 --- [main] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2023-07-24T20:36:26.727+03:00  INFO 121464 --- [main] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 1881 ms
+2023-07-24T20:36:26.787+03:00  INFO 121464 --- [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
+2023-07-24T20:36:26.985+03:00  INFO 121464 --- [main] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Added connection conn0: url=jdbc:h2:mem:couriertestdb user=SA
+2023-07-24T20:36:26.988+03:00  INFO 121464 --- [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
+2023-07-24T20:36:27.008+03:00  INFO 121464 --- [main] o.s.b.a.h2.H2ConsoleAutoConfiguration    : H2 console available at '/h2-console'. Database available at 'jdbc:h2:mem:couriertestdb'
+2023-07-24T20:36:27.196+03:00  INFO 121464 --- [main] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [name: default]
+2023-07-24T20:36:27.278+03:00  INFO 121464 --- [main] org.hibernate.Version                    : HHH000412: Hibernate ORM core version 6.2.6.Final
+2023-07-24T20:36:27.281+03:00  INFO 121464 --- [main] org.hibernate.cfg.Environment            : HHH000406: Using bytecode reflection optimizer
+2023-07-24T20:36:27.444+03:00  INFO 121464 --- [main] o.h.b.i.BytecodeProviderInitiator        : HHH000021: Bytecode provider name : bytebuddy
+2023-07-24T20:36:27.589+03:00  INFO 121464 --- [main] o.s.o.j.p.SpringPersistenceUnitInfo      : No LoadTimeWeaver setup: ignoring JPA class transformer
+2023-07-24T20:36:27.867+03:00  INFO 121464 --- [main] o.h.b.i.BytecodeProviderInitiator        : HHH000021: Bytecode provider name : bytebuddy
+2023-07-24T20:36:28.487+03:00  INFO 121464 --- [main] o.h.e.t.j.p.i.JtaPlatformInitiator       : HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2023-07-24T20:36:28.555+03:00  INFO 121464 --- [main] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2023-07-24T20:36:29.071+03:00  WARN 121464 --- [main] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2023-07-24T20:36:29.508+03:00  INFO 121464 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8100 (http) with context path ''
+2023-07-24T20:36:29.519+03:00  INFO 121464 --- [main] c.e.couriercase.CouriercaseApplication   : Started CouriercaseApplication in 5.296 seconds (process running for 5.926)
+2023-07-24T20:37:09.955+03:00  INFO 121464 --- [http-nio-8100-exec-2] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2023-07-24T20:37:09.957+03:00  INFO 121464 --- [http-nio-8100-exec-2] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2023-07-24T20:37:09.960+03:00  INFO 121464 --- [http-nio-8100-exec-2] o.s.web.servlet.DispatcherServlet        : Completed initialization in 2 ms
+2023-07-24T20:37:25.045+03:00  INFO 107884 --- [main] c.e.couriercase.CouriercaseApplication   : Starting CouriercaseApplication using Java 17.0.7 with PID 107884 (C:\Users\MEHMET\Desktop\MÝGROS\migros-courier-case\target\classes started by MEHMET in C:\Users\MEHMET\Desktop\MÝGROS\migros-courier-case)
+2023-07-24T20:37:25.049+03:00  INFO 107884 --- [main] c.e.couriercase.CouriercaseApplication   : No active profile set, falling back to 1 default profile: "default"
+2023-07-24T20:37:26.087+03:00  INFO 107884 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2023-07-24T20:37:26.192+03:00  INFO 107884 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 89 ms. Found 2 JPA repository interfaces.
+2023-07-24T20:37:27.286+03:00  INFO 107884 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8100 (http)
+2023-07-24T20:37:27.306+03:00  INFO 107884 --- [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2023-07-24T20:37:27.307+03:00  INFO 107884 --- [main] o.apache.catalina.core.StandardEngine    : Starting Servlet engine: [Apache Tomcat/10.1.11]
+2023-07-24T20:37:27.459+03:00  INFO 107884 --- [main] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2023-07-24T20:37:27.461+03:00  INFO 107884 --- [main] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 2310 ms
+2023-07-24T20:37:27.518+03:00  INFO 107884 --- [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
+2023-07-24T20:37:27.734+03:00  INFO 107884 --- [main] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Added connection conn0: url=jdbc:h2:mem:couriertestdb user=SA
+2023-07-24T20:37:27.737+03:00  INFO 107884 --- [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
+2023-07-24T20:37:27.788+03:00  INFO 107884 --- [main] o.s.b.a.h2.H2ConsoleAutoConfiguration    : H2 console available at '/h2-console'. Database available at 'jdbc:h2:mem:couriertestdb'
+2023-07-24T20:37:28.070+03:00  INFO 107884 --- [main] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [name: default]
+2023-07-24T20:37:28.165+03:00  INFO 107884 --- [main] org.hibernate.Version                    : HHH000412: Hibernate ORM core version 6.2.6.Final
+2023-07-24T20:37:28.170+03:00  INFO 107884 --- [main] org.hibernate.cfg.Environment            : HHH000406: Using bytecode reflection optimizer
+2023-07-24T20:37:28.332+03:00  INFO 107884 --- [main] o.h.b.i.BytecodeProviderInitiator        : HHH000021: Bytecode provider name : bytebuddy
+2023-07-24T20:37:28.494+03:00  INFO 107884 --- [main] o.s.o.j.p.SpringPersistenceUnitInfo      : No LoadTimeWeaver setup: ignoring JPA class transformer
+2023-07-24T20:37:28.770+03:00  INFO 107884 --- [main] o.h.b.i.BytecodeProviderInitiator        : HHH000021: Bytecode provider name : bytebuddy
+2023-07-24T20:37:29.417+03:00  INFO 107884 --- [main] o.h.e.t.j.p.i.JtaPlatformInitiator       : HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2023-07-24T20:37:29.488+03:00  INFO 107884 --- [main] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2023-07-24T20:37:30.043+03:00  WARN 107884 --- [main] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2023-07-24T20:37:30.564+03:00  INFO 107884 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8100 (http) with context path ''
+2023-07-24T20:37:30.579+03:00  INFO 107884 --- [main] c.e.couriercase.CouriercaseApplication   : Started CouriercaseApplication in 6.4 seconds (process running for 7.093)
+2023-07-24T20:37:32.044+03:00  INFO 107884 --- [http-nio-8100-exec-2] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2023-07-24T20:37:32.045+03:00  INFO 107884 --- [http-nio-8100-exec-2] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2023-07-24T20:37:32.047+03:00  INFO 107884 --- [http-nio-8100-exec-2] o.s.web.servlet.DispatcherServlet        : Completed initialization in 2 ms
+2023-07-24T20:38:21.098+03:00 ERROR 107884 --- [http-nio-8100-exec-4] o.a.c.c.C.[.[.[/].[dispatcherServlet]    : Servlet.service() for servlet [dispatcherServlet] in context with path [] threw exception [Request processing failed: jakarta.persistence.EntityNotFoundException: courier not found] with root cause
+
+jakarta.persistence.EntityNotFoundException: courier not found
+	at com.emin.couriercase.service.CourierService.lambda$4(CourierService.java:94) ~[classes/:na]
+	at java.base/java.util.Optional.orElseThrow(Unknown Source) ~[na:na]
+	at com.emin.couriercase.service.CourierService.getTotalTravelDistance(CourierService.java:94) ~[classes/:na]
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method) ~[na:na]
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(Unknown Source) ~[na:na]
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source) ~[na:na]
+	at java.base/java.lang.reflect.Method.invoke(Unknown Source) ~[na:na]
+	at org.springframework.aop.support.AopUtils.invokeJoinpointUsingReflection(AopUtils.java:343) ~[spring-aop-6.0.11.jar:6.0.11]
+	at org.springframework.aop.framework.ReflectiveMethodInvocation.invokeJoinpoint(ReflectiveMethodInvocation.java:196) ~[spring-aop-6.0.11.jar:6.0.11]
+	at org.springframework.aop.framework.ReflectiveMethodInvocation.proceed(ReflectiveMethodInvocation.java:163) ~[spring-aop-6.0.11.jar:6.0.11]
+	at org.springframework.aop.framework.CglibAopProxy$CglibMethodInvocation.proceed(CglibAopProxy.java:756) ~[spring-aop-6.0.11.jar:6.0.11]
+	at org.springframework.transaction.interceptor.TransactionInterceptor$1.proceedWithInvocation(TransactionInterceptor.java:123) ~[spring-tx-6.0.11.jar:6.0.11]
+	at org.springframework.transaction.interceptor.TransactionAspectSupport.invokeWithinTransaction(TransactionAspectSupport.java:391) ~[spring-tx-6.0.11.jar:6.0.11]
+	at org.springframework.transaction.interceptor.TransactionInterceptor.invoke(TransactionInterceptor.java:119) ~[spring-tx-6.0.11.jar:6.0.11]
+	at org.springframework.aop.framework.ReflectiveMethodInvocation.proceed(ReflectiveMethodInvocation.java:184) ~[spring-aop-6.0.11.jar:6.0.11]
+	at org.springframework.aop.framework.CglibAopProxy$CglibMethodInvocation.proceed(CglibAopProxy.java:756) ~[spring-aop-6.0.11.jar:6.0.11]
+	at org.springframework.aop.framework.CglibAopProxy$DynamicAdvisedInterceptor.intercept(CglibAopProxy.java:708) ~[spring-aop-6.0.11.jar:6.0.11]
+	at com.emin.couriercase.service.CourierService$$SpringCGLIB$$0.getTotalTravelDistance(<generated>) ~[classes/:na]
+	at com.emin.couriercase.controller.CourierController.getTotalTravelDistance(CourierController.java:39) ~[classes/:na]
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method) ~[na:na]
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(Unknown Source) ~[na:na]
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source) ~[na:na]
+	at java.base/java.lang.reflect.Method.invoke(Unknown Source) ~[na:na]
+	at org.springframework.web.method.support.InvocableHandlerMethod.doInvoke(InvocableHandlerMethod.java:205) ~[spring-web-6.0.11.jar:6.0.11]
+	at org.springframework.web.method.support.InvocableHandlerMethod.invokeForRequest(InvocableHandlerMethod.java:150) ~[spring-web-6.0.11.jar:6.0.11]
+	at org.springframework.web.servlet.mvc.method.annotation.ServletInvocableHandlerMethod.invokeAndHandle(ServletInvocableHandlerMethod.java:118) ~[spring-webmvc-6.0.11.jar:6.0.11]
+	at org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter.invokeHandlerMethod(RequestMappingHandlerAdapter.java:884) ~[spring-webmvc-6.0.11.jar:6.0.11]
+	at org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter.handleInternal(RequestMappingHandlerAdapter.java:797) ~[spring-webmvc-6.0.11.jar:6.0.11]
+	at org.springframework.web.servlet.mvc.method.AbstractHandlerMethodAdapter.handle(AbstractHandlerMethodAdapter.java:87) ~[spring-webmvc-6.0.11.jar:6.0.11]
+	at org.springframework.web.servlet.DispatcherServlet.doDispatch(DispatcherServlet.java:1081) ~[spring-webmvc-6.0.11.jar:6.0.11]
+	at org.springframework.web.servlet.DispatcherServlet.doService(DispatcherServlet.java:974) ~[spring-webmvc-6.0.11.jar:6.0.11]
+	at org.springframework.web.servlet.FrameworkServlet.processRequest(FrameworkServlet.java:1011) ~[spring-webmvc-6.0.11.jar:6.0.11]
+	at org.springframework.web.servlet.FrameworkServlet.doGet(FrameworkServlet.java:903) ~[spring-webmvc-6.0.11.jar:6.0.11]
+	at jakarta.servlet.http.HttpServlet.service(HttpServlet.java:564) ~[tomcat-embed-core-10.1.11.jar:6.0]
+	at org.springframework.web.servlet.FrameworkServlet.service(FrameworkServlet.java:885) ~[spring-webmvc-6.0.11.jar:6.0.11]
+	at jakarta.servlet.http.HttpServlet.service(HttpServlet.java:658) ~[tomcat-embed-core-10.1.11.jar:6.0]
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:205) ~[tomcat-embed-core-10.1.11.jar:10.1.11]
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:149) ~[tomcat-embed-core-10.1.11.jar:10.1.11]
+	at org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:51) ~[tomcat-embed-websocket-10.1.11.jar:10.1.11]
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:174) ~[tomcat-embed-core-10.1.11.jar:10.1.11]
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:149) ~[tomcat-embed-core-10.1.11.jar:10.1.11]
+	at org.springframework.web.filter.RequestContextFilter.doFilterInternal(RequestContextFilter.java:100) ~[spring-web-6.0.11.jar:6.0.11]
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:116) ~[spring-web-6.0.11.jar:6.0.11]
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:174) ~[tomcat-embed-core-10.1.11.jar:10.1.11]
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:149) ~[tomcat-embed-core-10.1.11.jar:10.1.11]
+	at org.springframework.web.filter.FormContentFilter.doFilterInternal(FormContentFilter.java:93) ~[spring-web-6.0.11.jar:6.0.11]
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:116) ~[spring-web-6.0.11.jar:6.0.11]
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:174) ~[tomcat-embed-core-10.1.11.jar:10.1.11]
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:149) ~[tomcat-embed-core-10.1.11.jar:10.1.11]
+	at org.springframework.web.filter.CharacterEncodingFilter.doFilterInternal(CharacterEncodingFilter.java:201) ~[spring-web-6.0.11.jar:6.0.11]
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:116) ~[spring-web-6.0.11.jar:6.0.11]
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:174) ~[tomcat-embed-core-10.1.11.jar:10.1.11]
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:149) ~[tomcat-embed-core-10.1.11.jar:10.1.11]
+	at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:166) ~[tomcat-embed-core-10.1.11.jar:10.1.11]
+	at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:90) ~[tomcat-embed-core-10.1.11.jar:10.1.11]
+	at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:482) ~[tomcat-embed-core-10.1.11.jar:10.1.11]
+	at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:115) ~[tomcat-embed-core-10.1.11.jar:10.1.11]
+	at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:93) ~[tomcat-embed-core-10.1.11.jar:10.1.11]
+	at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:74) ~[tomcat-embed-core-10.1.11.jar:10.1.11]
+	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:341) ~[tomcat-embed-core-10.1.11.jar:10.1.11]
+	at org.apache.coyote.http11.Http11Processor.service(Http11Processor.java:391) ~[tomcat-embed-core-10.1.11.jar:10.1.11]
+	at org.apache.coyote.AbstractProcessorLight.process(AbstractProcessorLight.java:63) ~[tomcat-embed-core-10.1.11.jar:10.1.11]
+	at org.apache.coyote.AbstractProtocol$ConnectionHandler.process(AbstractProtocol.java:894) ~[tomcat-embed-core-10.1.11.jar:10.1.11]
+	at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1740) ~[tomcat-embed-core-10.1.11.jar:10.1.11]
+	at org.apache.tomcat.util.net.SocketProcessorBase.run(SocketProcessorBase.java:52) ~[tomcat-embed-core-10.1.11.jar:10.1.11]
+	at org.apache.tomcat.util.threads.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1191) ~[tomcat-embed-core-10.1.11.jar:10.1.11]
+	at org.apache.tomcat.util.threads.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:659) ~[tomcat-embed-core-10.1.11.jar:10.1.11]
+	at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:61) ~[tomcat-embed-core-10.1.11.jar:10.1.11]
+	at java.base/java.lang.Thread.run(Unknown Source) ~[na:na]
+
+2023-07-24T20:44:45.579+03:00  INFO 122224 --- [main] c.e.couriercase.CouriercaseApplication   : Starting CouriercaseApplication using Java 17.0.7 with PID 122224 (C:\Users\MEHMET\Desktop\MÝGROS\migros-courier-case\target\classes started by MEHMET in C:\Users\MEHMET\Desktop\MÝGROS\migros-courier-case)
+2023-07-24T20:44:45.586+03:00  INFO 122224 --- [main] c.e.couriercase.CouriercaseApplication   : No active profile set, falling back to 1 default profile: "default"
+2023-07-24T20:44:46.530+03:00  INFO 122224 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2023-07-24T20:44:46.630+03:00  INFO 122224 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 84 ms. Found 2 JPA repository interfaces.
+2023-07-24T20:44:47.341+03:00  INFO 122224 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8100 (http)
+2023-07-24T20:44:47.359+03:00  INFO 122224 --- [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2023-07-24T20:44:47.360+03:00  INFO 122224 --- [main] o.apache.catalina.core.StandardEngine    : Starting Servlet engine: [Apache Tomcat/10.1.11]
+2023-07-24T20:44:47.509+03:00  INFO 122224 --- [main] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2023-07-24T20:44:47.510+03:00  INFO 122224 --- [main] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 1834 ms
+2023-07-24T20:44:47.566+03:00  INFO 122224 --- [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
+2023-07-24T20:44:47.775+03:00  INFO 122224 --- [main] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Added connection conn0: url=jdbc:h2:mem:couriertestdb user=SA
+2023-07-24T20:44:47.778+03:00  INFO 122224 --- [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
+2023-07-24T20:44:47.800+03:00  INFO 122224 --- [main] o.s.b.a.h2.H2ConsoleAutoConfiguration    : H2 console available at '/h2-console'. Database available at 'jdbc:h2:mem:couriertestdb'
+2023-07-24T20:44:47.982+03:00  INFO 122224 --- [main] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [name: default]
+2023-07-24T20:44:48.059+03:00  INFO 122224 --- [main] org.hibernate.Version                    : HHH000412: Hibernate ORM core version 6.2.6.Final
+2023-07-24T20:44:48.062+03:00  INFO 122224 --- [main] org.hibernate.cfg.Environment            : HHH000406: Using bytecode reflection optimizer
+2023-07-24T20:44:48.222+03:00  INFO 122224 --- [main] o.h.b.i.BytecodeProviderInitiator        : HHH000021: Bytecode provider name : bytebuddy
+2023-07-24T20:44:48.373+03:00  INFO 122224 --- [main] o.s.o.j.p.SpringPersistenceUnitInfo      : No LoadTimeWeaver setup: ignoring JPA class transformer
+2023-07-24T20:44:48.662+03:00  INFO 122224 --- [main] o.h.b.i.BytecodeProviderInitiator        : HHH000021: Bytecode provider name : bytebuddy
+2023-07-24T20:44:49.343+03:00  INFO 122224 --- [main] o.h.e.t.j.p.i.JtaPlatformInitiator       : HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2023-07-24T20:44:49.413+03:00  INFO 122224 --- [main] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2023-07-24T20:44:49.940+03:00  WARN 122224 --- [main] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2023-07-24T20:44:50.410+03:00  INFO 122224 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8100 (http) with context path ''
+2023-07-24T20:44:50.422+03:00  INFO 122224 --- [main] c.e.couriercase.CouriercaseApplication   : Started CouriercaseApplication in 5.548 seconds (process running for 6.123)
+2023-07-24T20:44:59.413+03:00  INFO 122224 --- [http-nio-8100-exec-1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2023-07-24T20:44:59.414+03:00  INFO 122224 --- [http-nio-8100-exec-1] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2023-07-24T20:44:59.417+03:00  INFO 122224 --- [http-nio-8100-exec-1] o.s.web.servlet.DispatcherServlet        : Completed initialization in 2 ms
+2023-07-24T20:44:59.727+03:00 ERROR 122224 --- [http-nio-8100-exec-1] c.e.c.e.GlobalExceptionHandler           : An error occurred: ErrorResponseDto(path=/courier/get-total-travel-distance/1, ipAddress=0:0:0:0:0:0:0:1, status=500, error=INTERNAL_SERVER_ERROR, details=[courier not found], timestamp=2023-07-24T20:44:59.726247500)
+2023-07-24T20:47:11.633+03:00  INFO 95264 --- [main] c.e.couriercase.CouriercaseApplication   : Starting CouriercaseApplication using Java 17.0.7 with PID 95264 (C:\Users\MEHMET\Desktop\MÝGROS\migros-courier-case\target\classes started by MEHMET in C:\Users\MEHMET\Desktop\MÝGROS\migros-courier-case)
+2023-07-24T20:47:11.636+03:00  INFO 95264 --- [main] c.e.couriercase.CouriercaseApplication   : No active profile set, falling back to 1 default profile: "default"
+2023-07-24T20:47:12.568+03:00  INFO 95264 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2023-07-24T20:47:12.689+03:00  INFO 95264 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 93 ms. Found 2 JPA repository interfaces.
+2023-07-24T20:47:13.475+03:00  INFO 95264 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8100 (http)
+2023-07-24T20:47:13.491+03:00  INFO 95264 --- [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2023-07-24T20:47:13.492+03:00  INFO 95264 --- [main] o.apache.catalina.core.StandardEngine    : Starting Servlet engine: [Apache Tomcat/10.1.11]
+2023-07-24T20:47:13.643+03:00  INFO 95264 --- [main] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2023-07-24T20:47:13.644+03:00  INFO 95264 --- [main] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 1909 ms
+2023-07-24T20:47:13.720+03:00  INFO 95264 --- [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
+2023-07-24T20:47:13.937+03:00  INFO 95264 --- [main] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Added connection conn0: url=jdbc:h2:mem:couriertestdb user=SA
+2023-07-24T20:47:13.940+03:00  INFO 95264 --- [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
+2023-07-24T20:47:13.963+03:00  INFO 95264 --- [main] o.s.b.a.h2.H2ConsoleAutoConfiguration    : H2 console available at '/h2-console'. Database available at 'jdbc:h2:mem:couriertestdb'
+2023-07-24T20:47:14.126+03:00  INFO 95264 --- [main] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [name: default]
+2023-07-24T20:47:14.207+03:00  INFO 95264 --- [main] org.hibernate.Version                    : HHH000412: Hibernate ORM core version 6.2.6.Final
+2023-07-24T20:47:14.211+03:00  INFO 95264 --- [main] org.hibernate.cfg.Environment            : HHH000406: Using bytecode reflection optimizer
+2023-07-24T20:47:14.368+03:00  INFO 95264 --- [main] o.h.b.i.BytecodeProviderInitiator        : HHH000021: Bytecode provider name : bytebuddy
+2023-07-24T20:47:14.526+03:00  INFO 95264 --- [main] o.s.o.j.p.SpringPersistenceUnitInfo      : No LoadTimeWeaver setup: ignoring JPA class transformer
+2023-07-24T20:47:14.824+03:00  INFO 95264 --- [main] o.h.b.i.BytecodeProviderInitiator        : HHH000021: Bytecode provider name : bytebuddy
+2023-07-24T20:47:15.532+03:00  INFO 95264 --- [main] o.h.e.t.j.p.i.JtaPlatformInitiator       : HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2023-07-24T20:47:15.603+03:00  INFO 95264 --- [main] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2023-07-24T20:47:16.146+03:00  WARN 95264 --- [main] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2023-07-24T20:47:16.622+03:00  INFO 95264 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8100 (http) with context path ''
+2023-07-24T20:47:16.633+03:00  INFO 95264 --- [main] c.e.couriercase.CouriercaseApplication   : Started CouriercaseApplication in 5.523 seconds (process running for 6.122)
+2023-07-24T20:47:20.568+03:00  INFO 95264 --- [http-nio-8100-exec-2] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2023-07-24T20:47:20.569+03:00  INFO 95264 --- [http-nio-8100-exec-2] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2023-07-24T20:47:20.574+03:00  INFO 95264 --- [http-nio-8100-exec-2] o.s.web.servlet.DispatcherServlet        : Completed initialization in 4 ms
+2023-07-24T20:47:20.938+03:00  WARN 95264 --- [http-nio-8100-exec-2] c.e.c.e.GlobalExceptionHandler           : A warning occurred : ErrorResponseDto(path=/courier/get-total-travel-distance/1, ipAddress=0:0:0:0:0:0:0:1, status=204, error=courier not found, details=[courier not found], timestamp=2023-07-24T20:47:20.938356)
+2023-07-24T20:48:16.276+03:00  INFO 117496 --- [main] c.e.couriercase.CouriercaseApplication   : Starting CouriercaseApplication using Java 17.0.7 with PID 117496 (C:\Users\MEHMET\Desktop\MÝGROS\migros-courier-case\target\classes started by MEHMET in C:\Users\MEHMET\Desktop\MÝGROS\migros-courier-case)
+2023-07-24T20:48:16.281+03:00  INFO 117496 --- [main] c.e.couriercase.CouriercaseApplication   : No active profile set, falling back to 1 default profile: "default"
+2023-07-24T20:48:17.261+03:00  INFO 117496 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2023-07-24T20:48:17.365+03:00  INFO 117496 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 88 ms. Found 2 JPA repository interfaces.
+2023-07-24T20:48:18.070+03:00  INFO 117496 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8100 (http)
+2023-07-24T20:48:18.081+03:00  INFO 117496 --- [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2023-07-24T20:48:18.082+03:00  INFO 117496 --- [main] o.apache.catalina.core.StandardEngine    : Starting Servlet engine: [Apache Tomcat/10.1.11]
+2023-07-24T20:48:18.240+03:00  INFO 117496 --- [main] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2023-07-24T20:48:18.241+03:00  INFO 117496 --- [main] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 1870 ms
+2023-07-24T20:48:18.310+03:00  INFO 117496 --- [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
+2023-07-24T20:48:18.519+03:00  INFO 117496 --- [main] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Added connection conn0: url=jdbc:h2:mem:couriertestdb user=SA
+2023-07-24T20:48:18.522+03:00  INFO 117496 --- [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
+2023-07-24T20:48:18.544+03:00  INFO 117496 --- [main] o.s.b.a.h2.H2ConsoleAutoConfiguration    : H2 console available at '/h2-console'. Database available at 'jdbc:h2:mem:couriertestdb'
+2023-07-24T20:48:18.712+03:00  INFO 117496 --- [main] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [name: default]
+2023-07-24T20:48:18.792+03:00  INFO 117496 --- [main] org.hibernate.Version                    : HHH000412: Hibernate ORM core version 6.2.6.Final
+2023-07-24T20:48:18.795+03:00  INFO 117496 --- [main] org.hibernate.cfg.Environment            : HHH000406: Using bytecode reflection optimizer
+2023-07-24T20:48:18.962+03:00  INFO 117496 --- [main] o.h.b.i.BytecodeProviderInitiator        : HHH000021: Bytecode provider name : bytebuddy
+2023-07-24T20:48:19.109+03:00  INFO 117496 --- [main] o.s.o.j.p.SpringPersistenceUnitInfo      : No LoadTimeWeaver setup: ignoring JPA class transformer
+2023-07-24T20:48:19.374+03:00  INFO 117496 --- [main] o.h.b.i.BytecodeProviderInitiator        : HHH000021: Bytecode provider name : bytebuddy
+2023-07-24T20:48:20.085+03:00  INFO 117496 --- [main] o.h.e.t.j.p.i.JtaPlatformInitiator       : HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2023-07-24T20:48:20.173+03:00  INFO 117496 --- [main] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2023-07-24T20:48:20.768+03:00  WARN 117496 --- [main] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2023-07-24T20:48:21.261+03:00  INFO 117496 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8100 (http) with context path ''
+2023-07-24T20:48:21.276+03:00  INFO 117496 --- [main] c.e.couriercase.CouriercaseApplication   : Started CouriercaseApplication in 5.597 seconds (process running for 6.351)
+2023-07-24T20:48:23.903+03:00  INFO 117496 --- [http-nio-8100-exec-2] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2023-07-24T20:48:23.904+03:00  INFO 117496 --- [http-nio-8100-exec-2] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2023-07-24T20:48:23.908+03:00  INFO 117496 --- [http-nio-8100-exec-2] o.s.web.servlet.DispatcherServlet        : Completed initialization in 3 ms
+2023-07-24T20:48:24.230+03:00  WARN 117496 --- [http-nio-8100-exec-2] c.e.c.e.GlobalExceptionHandler           : A warning occurred : ErrorResponseDto(path=/courier/get-total-travel-distance/1, ipAddress=0:0:0:0:0:0:0:1, status=204, error=courier not found, details=[courier not found], timestamp=2023-07-24T20:48:24.230596700)
+2023-07-24T20:49:32.536+03:00 ERROR 117496 --- [http-nio-8100-exec-4] c.e.c.e.GlobalExceptionHandler           : An error occurred : ErrorResponseDto(path=/courier/change-courier-location, ipAddress=0:0:0:0:0:0:0:1, status=500, error=INTERNAL_SERVER_ERROR, details=[JSON parse error: Cannot deserialize value of type `java.lang.Double` from String "lng": not a valid `Double` value], timestamp=2023-07-24T20:49:32.536067400)
+2023-07-24T20:50:06.037+03:00 ERROR 117496 --- [http-nio-8100-exec-6] c.e.c.e.GlobalExceptionHandler           : An error occurred : ErrorResponseDto(path=/courier/change-courier-location, ipAddress=0:0:0:0:0:0:0:1, status=500, error=INTERNAL_SERVER_ERROR, details=[Cannot invoke "java.lang.Double.doubleValue()" because "lng2" is null], timestamp=2023-07-24T20:50:06.036481400)
+2023-07-24T20:50:21.573+03:00  INFO 117496 --- [http-nio-8100-exec-8] c.e.couriercase.service.CourierService   : Courier with id number 1 is about 15,81 meters close to the store named Ataþehir MMM Migros.
+2023-07-24T20:50:21.590+03:00  INFO 117496 --- [http-nio-8100-exec-8] c.e.couriercase.service.CourierService   : Courier with id number 2 is about 53,79 meters close to the store named Novada MMM Migros.
+2023-07-24T20:50:21.608+03:00  INFO 117496 --- [http-nio-8100-exec-8] c.e.couriercase.service.CourierService   : Courier with id number 3 is about 53,79 meters close to the store named Novada MMM Migros.
+2023-07-24T20:54:57.805+03:00  INFO 121644 --- [main] c.e.couriercase.CouriercaseApplication   : Starting CouriercaseApplication using Java 17.0.7 with PID 121644 (C:\Users\MEHMET\Desktop\MÝGROS\migros-courier-case\target\classes started by MEHMET in C:\Users\MEHMET\Desktop\MÝGROS\migros-courier-case)
+2023-07-24T20:54:57.844+03:00  INFO 121644 --- [main] c.e.couriercase.CouriercaseApplication   : No active profile set, falling back to 1 default profile: "default"
+2023-07-24T20:54:59.988+03:00  INFO 121644 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2023-07-24T20:55:00.108+03:00  INFO 121644 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 99 ms. Found 2 JPA repository interfaces.
+2023-07-24T20:55:00.972+03:00  INFO 121644 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8100 (http)
+2023-07-24T20:55:00.992+03:00  INFO 121644 --- [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2023-07-24T20:55:00.994+03:00  INFO 121644 --- [main] o.apache.catalina.core.StandardEngine    : Starting Servlet engine: [Apache Tomcat/10.1.11]
+2023-07-24T20:55:01.143+03:00  INFO 121644 --- [main] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2023-07-24T20:55:01.144+03:00  INFO 121644 --- [main] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 3111 ms
+2023-07-24T20:55:01.199+03:00  INFO 121644 --- [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
+2023-07-24T20:55:01.432+03:00  INFO 121644 --- [main] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Added connection conn0: url=jdbc:h2:mem:couriertestdb user=SA
+2023-07-24T20:55:01.435+03:00  INFO 121644 --- [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
+2023-07-24T20:55:01.459+03:00  INFO 121644 --- [main] o.s.b.a.h2.H2ConsoleAutoConfiguration    : H2 console available at '/h2-console'. Database available at 'jdbc:h2:mem:couriertestdb'
+2023-07-24T20:55:01.645+03:00  INFO 121644 --- [main] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [name: default]
+2023-07-24T20:55:01.720+03:00  INFO 121644 --- [main] org.hibernate.Version                    : HHH000412: Hibernate ORM core version 6.2.6.Final
+2023-07-24T20:55:01.724+03:00  INFO 121644 --- [main] org.hibernate.cfg.Environment            : HHH000406: Using bytecode reflection optimizer
+2023-07-24T20:55:01.892+03:00  INFO 121644 --- [main] o.h.b.i.BytecodeProviderInitiator        : HHH000021: Bytecode provider name : bytebuddy
+2023-07-24T20:55:02.048+03:00  INFO 121644 --- [main] o.s.o.j.p.SpringPersistenceUnitInfo      : No LoadTimeWeaver setup: ignoring JPA class transformer
+2023-07-24T20:55:02.309+03:00  INFO 121644 --- [main] o.h.b.i.BytecodeProviderInitiator        : HHH000021: Bytecode provider name : bytebuddy
+2023-07-24T20:55:03.047+03:00  INFO 121644 --- [main] o.h.e.t.j.p.i.JtaPlatformInitiator       : HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2023-07-24T20:55:03.122+03:00  INFO 121644 --- [main] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2023-07-24T20:55:03.643+03:00  WARN 121644 --- [main] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2023-07-24T20:55:04.078+03:00  INFO 121644 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8100 (http) with context path ''
+2023-07-24T20:55:04.089+03:00  INFO 121644 --- [main] c.e.couriercase.CouriercaseApplication   : Started CouriercaseApplication in 7.171 seconds (process running for 7.978)
+2023-07-24T20:55:09.601+03:00  INFO 121644 --- [http-nio-8100-exec-2] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2023-07-24T20:55:09.602+03:00  INFO 121644 --- [http-nio-8100-exec-2] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2023-07-24T20:55:09.605+03:00  INFO 121644 --- [http-nio-8100-exec-2] o.s.web.servlet.DispatcherServlet        : Completed initialization in 2 ms
+2023-07-24T20:55:10.154+03:00  INFO 121644 --- [http-nio-8100-exec-2] c.e.couriercase.service.CourierService   : Courier with id number 1 is about 15,81 meters close to the store named Ataþehir MMM Migros.
+2023-07-24T20:55:10.187+03:00  INFO 121644 --- [http-nio-8100-exec-2] c.e.couriercase.service.CourierService   : Courier with id number 2 is about 53,79 meters close to the store named Novada MMM Migros.
+2023-07-24T20:55:10.209+03:00  INFO 121644 --- [http-nio-8100-exec-2] c.e.couriercase.service.CourierService   : Courier with id number 3 is about 53,79 meters close to the store named Novada MMM Migros.
+2023-07-24T21:00:25.785+03:00  INFO 114884 --- [main] c.e.couriercase.CouriercaseApplication   : Starting CouriercaseApplication using Java 17.0.7 with PID 114884 (C:\Users\MEHMET\Desktop\MÝGROS\migros-courier-case\target\classes started by MEHMET in C:\Users\MEHMET\Desktop\MÝGROS\migros-courier-case)
+2023-07-24T21:00:25.789+03:00  INFO 114884 --- [main] c.e.couriercase.CouriercaseApplication   : No active profile set, falling back to 1 default profile: "default"
+2023-07-24T21:00:26.728+03:00  INFO 114884 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2023-07-24T21:00:26.828+03:00  INFO 114884 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 88 ms. Found 2 JPA repository interfaces.
+2023-07-24T21:00:27.540+03:00  INFO 114884 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8100 (http)
+2023-07-24T21:00:27.557+03:00  INFO 114884 --- [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2023-07-24T21:00:27.559+03:00  INFO 114884 --- [main] o.apache.catalina.core.StandardEngine    : Starting Servlet engine: [Apache Tomcat/10.1.11]
+2023-07-24T21:00:27.728+03:00  INFO 114884 --- [main] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2023-07-24T21:00:27.729+03:00  INFO 114884 --- [main] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 1849 ms
+2023-07-24T21:00:27.796+03:00  INFO 114884 --- [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
+2023-07-24T21:00:28.007+03:00  INFO 114884 --- [main] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Added connection conn0: url=jdbc:h2:mem:couriertestdb user=SA
+2023-07-24T21:00:28.011+03:00  INFO 114884 --- [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
+2023-07-24T21:00:28.030+03:00  INFO 114884 --- [main] o.s.b.a.h2.H2ConsoleAutoConfiguration    : H2 console available at '/h2-console'. Database available at 'jdbc:h2:mem:couriertestdb'
+2023-07-24T21:00:28.209+03:00  INFO 114884 --- [main] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [name: default]
+2023-07-24T21:00:28.284+03:00  INFO 114884 --- [main] org.hibernate.Version                    : HHH000412: Hibernate ORM core version 6.2.6.Final
+2023-07-24T21:00:28.288+03:00  INFO 114884 --- [main] org.hibernate.cfg.Environment            : HHH000406: Using bytecode reflection optimizer
+2023-07-24T21:00:28.447+03:00  INFO 114884 --- [main] o.h.b.i.BytecodeProviderInitiator        : HHH000021: Bytecode provider name : bytebuddy
+2023-07-24T21:00:28.608+03:00  INFO 114884 --- [main] o.s.o.j.p.SpringPersistenceUnitInfo      : No LoadTimeWeaver setup: ignoring JPA class transformer
+2023-07-24T21:00:28.919+03:00  INFO 114884 --- [main] o.h.b.i.BytecodeProviderInitiator        : HHH000021: Bytecode provider name : bytebuddy
+2023-07-24T21:00:29.580+03:00  INFO 114884 --- [main] o.h.e.t.j.p.i.JtaPlatformInitiator       : HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2023-07-24T21:00:29.647+03:00  INFO 114884 --- [main] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2023-07-24T21:00:30.163+03:00  WARN 114884 --- [main] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2023-07-24T21:00:30.623+03:00  INFO 114884 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8100 (http) with context path ''
+2023-07-24T21:00:30.637+03:00  INFO 114884 --- [main] c.e.couriercase.CouriercaseApplication   : Started CouriercaseApplication in 5.399 seconds (process running for 6.026)
+2023-07-24T21:00:33.555+03:00  INFO 114884 --- [http-nio-8100-exec-1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2023-07-24T21:00:33.557+03:00  INFO 114884 --- [http-nio-8100-exec-1] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2023-07-24T21:00:33.560+03:00  INFO 114884 --- [http-nio-8100-exec-1] o.s.web.servlet.DispatcherServlet        : Completed initialization in 2 ms
+2023-07-24T21:00:34.046+03:00  INFO 114884 --- [http-nio-8100-exec-1] c.e.couriercase.service.CourierService   : Courier with id number 1 is about 15,81 meters close to the store named Ataþehir MMM Migros.
+2023-07-24T21:00:34.060+03:00  INFO 114884 --- [http-nio-8100-exec-1] c.e.couriercase.service.CourierService   : Courier with id number 2 is about 53,79 meters close to the store named Novada MMM Migros.
+2023-07-24T21:00:34.070+03:00  INFO 114884 --- [http-nio-8100-exec-1] c.e.couriercase.service.CourierService   : Courier with id number 3 is about 53,79 meters close to the store named Novada MMM Migros.
+2023-07-24T21:00:51.386+03:00  WARN 114884 --- [http-nio-8100-exec-3] o.h.engine.jdbc.spi.SqlExceptionHelper   : SQL Error: 23502, SQLState: 23502
+2023-07-24T21:00:51.388+03:00 ERROR 114884 --- [http-nio-8100-exec-3] o.h.engine.jdbc.spi.SqlExceptionHelper   : NULL not allowed for column "COURIER_ID"; SQL statement:
+insert into couriers (courier_id,last_lat,last_lng,last_time,total_distance,id) values (?,?,?,?,?,default) [23502-220]
+2023-07-24T21:00:51.407+03:00 ERROR 114884 --- [http-nio-8100-exec-3] c.e.c.e.GlobalExceptionHandler           : An error occurred : ErrorResponseDto(path=/courier/change-courier-location, ipAddress=0:0:0:0:0:0:0:1, status=500, error=INTERNAL_SERVER_ERROR, details=[could not execute statement [NULL not allowed for column "COURIER_ID"; SQL statement:
+insert into couriers (courier_id,last_lat,last_lng,last_time,total_distance,id) values (?,?,?,?,?,default) [23502-220]] [insert into couriers (courier_id,last_lat,last_lng,last_time,total_distance,id) values (?,?,?,?,?,default)]; SQL [insert into couriers (courier_id,last_lat,last_lng,last_time,total_distance,id) values (?,?,?,?,?,default)]; constraint [null]], timestamp=2023-07-24T21:00:51.406738900)
+2023-07-24T21:02:08.873+03:00  INFO 112600 --- [main] c.e.couriercase.CouriercaseApplication   : Starting CouriercaseApplication using Java 17.0.7 with PID 112600 (C:\Users\MEHMET\Desktop\MÝGROS\migros-courier-case\target\classes started by MEHMET in C:\Users\MEHMET\Desktop\MÝGROS\migros-courier-case)
+2023-07-24T21:02:08.877+03:00  INFO 112600 --- [main] c.e.couriercase.CouriercaseApplication   : No active profile set, falling back to 1 default profile: "default"
+2023-07-24T21:02:10.063+03:00  INFO 112600 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2023-07-24T21:02:10.177+03:00  INFO 112600 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 100 ms. Found 2 JPA repository interfaces.
+2023-07-24T21:02:10.948+03:00  INFO 112600 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8100 (http)
+2023-07-24T21:02:10.966+03:00  INFO 112600 --- [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2023-07-24T21:02:10.967+03:00  INFO 112600 --- [main] o.apache.catalina.core.StandardEngine    : Starting Servlet engine: [Apache Tomcat/10.1.11]
+2023-07-24T21:02:11.156+03:00  INFO 112600 --- [main] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2023-07-24T21:02:11.157+03:00  INFO 112600 --- [main] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 2174 ms
+2023-07-24T21:02:11.229+03:00  INFO 112600 --- [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
+2023-07-24T21:02:11.457+03:00  INFO 112600 --- [main] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Added connection conn0: url=jdbc:h2:mem:couriertestdb user=SA
+2023-07-24T21:02:11.460+03:00  INFO 112600 --- [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
+2023-07-24T21:02:11.481+03:00  INFO 112600 --- [main] o.s.b.a.h2.H2ConsoleAutoConfiguration    : H2 console available at '/h2-console'. Database available at 'jdbc:h2:mem:couriertestdb'
+2023-07-24T21:02:11.660+03:00  INFO 112600 --- [main] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [name: default]
+2023-07-24T21:02:11.742+03:00  INFO 112600 --- [main] org.hibernate.Version                    : HHH000412: Hibernate ORM core version 6.2.6.Final
+2023-07-24T21:02:11.746+03:00  INFO 112600 --- [main] org.hibernate.cfg.Environment            : HHH000406: Using bytecode reflection optimizer
+2023-07-24T21:02:11.921+03:00  INFO 112600 --- [main] o.h.b.i.BytecodeProviderInitiator        : HHH000021: Bytecode provider name : bytebuddy
+2023-07-24T21:02:12.101+03:00  INFO 112600 --- [main] o.s.o.j.p.SpringPersistenceUnitInfo      : No LoadTimeWeaver setup: ignoring JPA class transformer
+2023-07-24T21:02:12.368+03:00  INFO 112600 --- [main] o.h.b.i.BytecodeProviderInitiator        : HHH000021: Bytecode provider name : bytebuddy
+2023-07-24T21:02:13.085+03:00  INFO 112600 --- [main] o.h.e.t.j.p.i.JtaPlatformInitiator       : HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2023-07-24T21:02:13.160+03:00  INFO 112600 --- [main] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2023-07-24T21:02:13.670+03:00  WARN 112600 --- [main] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2023-07-24T21:02:14.082+03:00  INFO 112600 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8100 (http) with context path ''
+2023-07-24T21:02:14.095+03:00  INFO 112600 --- [main] c.e.couriercase.CouriercaseApplication   : Started CouriercaseApplication in 6.205 seconds (process running for 8.029)
+2023-07-24T21:02:16.142+03:00  INFO 112600 --- [http-nio-8100-exec-1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2023-07-24T21:02:16.144+03:00  INFO 112600 --- [http-nio-8100-exec-1] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2023-07-24T21:02:16.147+03:00  INFO 112600 --- [http-nio-8100-exec-1] o.s.web.servlet.DispatcherServlet        : Completed initialization in 1 ms
+2023-07-24T21:02:16.678+03:00  INFO 112600 --- [http-nio-8100-exec-1] c.e.couriercase.service.CourierService   : Courier with id number 1 is about 15,81 meters close to the store named Ataþehir MMM Migros.
+2023-07-24T21:02:16.697+03:00  INFO 112600 --- [http-nio-8100-exec-1] c.e.couriercase.service.CourierService   : Courier with id number 2 is about 53,79 meters close to the store named Novada MMM Migros.
+2023-07-24T21:02:16.710+03:00  INFO 112600 --- [http-nio-8100-exec-1] c.e.couriercase.service.CourierService   : Courier with id number 3 is about 53,79 meters close to the store named Novada MMM Migros.
+2023-07-24T21:06:33.931+03:00  INFO 110812 --- [main] c.e.couriercase.CouriercaseApplication   : Starting CouriercaseApplication using Java 17.0.7 with PID 110812 (C:\Users\MEHMET\Desktop\MÝGROS\migros-courier-case\target\classes started by MEHMET in C:\Users\MEHMET\Desktop\MÝGROS\migros-courier-case)
+2023-07-24T21:06:33.935+03:00  INFO 110812 --- [main] c.e.couriercase.CouriercaseApplication   : No active profile set, falling back to 1 default profile: "default"
+2023-07-24T21:06:34.988+03:00  INFO 110812 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2023-07-24T21:06:35.090+03:00  INFO 110812 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 84 ms. Found 2 JPA repository interfaces.
+2023-07-24T21:06:35.844+03:00  INFO 110812 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8100 (http)
+2023-07-24T21:06:35.860+03:00  INFO 110812 --- [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2023-07-24T21:06:35.861+03:00  INFO 110812 --- [main] o.apache.catalina.core.StandardEngine    : Starting Servlet engine: [Apache Tomcat/10.1.11]
+2023-07-24T21:06:36.016+03:00  INFO 110812 --- [main] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2023-07-24T21:06:36.017+03:00  INFO 110812 --- [main] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 1991 ms
+2023-07-24T21:06:36.082+03:00  INFO 110812 --- [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
+2023-07-24T21:06:36.294+03:00  INFO 110812 --- [main] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Added connection conn0: url=jdbc:h2:mem:couriertestdb user=SA
+2023-07-24T21:06:36.297+03:00  INFO 110812 --- [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
+2023-07-24T21:06:36.321+03:00  INFO 110812 --- [main] o.s.b.a.h2.H2ConsoleAutoConfiguration    : H2 console available at '/h2-console'. Database available at 'jdbc:h2:mem:couriertestdb'
+2023-07-24T21:06:36.534+03:00  INFO 110812 --- [main] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [name: default]
+2023-07-24T21:06:36.610+03:00  INFO 110812 --- [main] org.hibernate.Version                    : HHH000412: Hibernate ORM core version 6.2.6.Final
+2023-07-24T21:06:36.613+03:00  INFO 110812 --- [main] org.hibernate.cfg.Environment            : HHH000406: Using bytecode reflection optimizer
+2023-07-24T21:06:36.769+03:00  INFO 110812 --- [main] o.h.b.i.BytecodeProviderInitiator        : HHH000021: Bytecode provider name : bytebuddy
+2023-07-24T21:06:36.935+03:00  INFO 110812 --- [main] o.s.o.j.p.SpringPersistenceUnitInfo      : No LoadTimeWeaver setup: ignoring JPA class transformer
+2023-07-24T21:06:37.214+03:00  INFO 110812 --- [main] o.h.b.i.BytecodeProviderInitiator        : HHH000021: Bytecode provider name : bytebuddy
+2023-07-24T21:06:37.852+03:00  INFO 110812 --- [main] o.h.e.t.j.p.i.JtaPlatformInitiator       : HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2023-07-24T21:06:37.921+03:00  INFO 110812 --- [main] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2023-07-24T21:06:38.444+03:00  WARN 110812 --- [main] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2023-07-24T21:06:38.874+03:00  INFO 110812 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8100 (http) with context path ''
+2023-07-24T21:06:38.889+03:00  INFO 110812 --- [main] c.e.couriercase.CouriercaseApplication   : Started CouriercaseApplication in 5.487 seconds (process running for 6.247)
+2023-07-24T21:06:41.329+03:00  INFO 110812 --- [http-nio-8100-exec-2] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2023-07-24T21:06:41.331+03:00  INFO 110812 --- [http-nio-8100-exec-2] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2023-07-24T21:06:41.337+03:00  INFO 110812 --- [http-nio-8100-exec-2] o.s.web.servlet.DispatcherServlet        : Completed initialization in 4 ms
+2023-07-24T21:06:41.924+03:00  INFO 110812 --- [http-nio-8100-exec-2] c.e.couriercase.service.CourierService   : Courier with id number 1 is about 15,81 meters close to the store named Ataþehir MMM Migros.
+2023-07-24T21:06:41.944+03:00  INFO 110812 --- [http-nio-8100-exec-2] c.e.couriercase.service.CourierService   : Courier with id number 2 is about 53,79 meters close to the store named Novada MMM Migros.
+2023-07-24T21:06:41.960+03:00  INFO 110812 --- [http-nio-8100-exec-2] c.e.couriercase.service.CourierService   : Courier with id number 3 is about 53,79 meters close to the store named Novada MMM Migros.
+2023-07-24T21:07:03.334+03:00  INFO 105252 --- [main] c.e.couriercase.CouriercaseApplication   : Starting CouriercaseApplication using Java 17.0.7 with PID 105252 (C:\Users\MEHMET\Desktop\MÝGROS\migros-courier-case\target\classes started by MEHMET in C:\Users\MEHMET\Desktop\MÝGROS\migros-courier-case)
+2023-07-24T21:07:03.339+03:00  INFO 105252 --- [main] c.e.couriercase.CouriercaseApplication   : No active profile set, falling back to 1 default profile: "default"
+2023-07-24T21:07:04.983+03:00  INFO 105252 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2023-07-24T21:07:05.089+03:00  INFO 105252 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 91 ms. Found 2 JPA repository interfaces.
+2023-07-24T21:07:05.869+03:00  INFO 105252 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8100 (http)
+2023-07-24T21:07:05.888+03:00  INFO 105252 --- [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2023-07-24T21:07:05.889+03:00  INFO 105252 --- [main] o.apache.catalina.core.StandardEngine    : Starting Servlet engine: [Apache Tomcat/10.1.11]
+2023-07-24T21:07:06.070+03:00  INFO 105252 --- [main] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2023-07-24T21:07:06.071+03:00  INFO 105252 --- [main] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 2510 ms
+2023-07-24T21:07:06.150+03:00  INFO 105252 --- [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
+2023-07-24T21:07:06.427+03:00  INFO 105252 --- [main] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Added connection conn0: url=jdbc:h2:mem:couriertestdb user=SA
+2023-07-24T21:07:06.431+03:00  INFO 105252 --- [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
+2023-07-24T21:07:06.454+03:00  INFO 105252 --- [main] o.s.b.a.h2.H2ConsoleAutoConfiguration    : H2 console available at '/h2-console'. Database available at 'jdbc:h2:mem:couriertestdb'
+2023-07-24T21:07:06.645+03:00  INFO 105252 --- [main] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [name: default]
+2023-07-24T21:07:06.732+03:00  INFO 105252 --- [main] org.hibernate.Version                    : HHH000412: Hibernate ORM core version 6.2.6.Final
+2023-07-24T21:07:06.736+03:00  INFO 105252 --- [main] org.hibernate.cfg.Environment            : HHH000406: Using bytecode reflection optimizer
+2023-07-24T21:07:06.900+03:00  INFO 105252 --- [main] o.h.b.i.BytecodeProviderInitiator        : HHH000021: Bytecode provider name : bytebuddy
+2023-07-24T21:07:07.081+03:00  INFO 105252 --- [main] o.s.o.j.p.SpringPersistenceUnitInfo      : No LoadTimeWeaver setup: ignoring JPA class transformer
+2023-07-24T21:07:07.370+03:00  INFO 105252 --- [main] o.h.b.i.BytecodeProviderInitiator        : HHH000021: Bytecode provider name : bytebuddy
+2023-07-24T21:07:08.054+03:00  INFO 105252 --- [main] o.h.e.t.j.p.i.JtaPlatformInitiator       : HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2023-07-24T21:07:08.129+03:00  INFO 105252 --- [main] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2023-07-24T21:07:08.668+03:00  WARN 105252 --- [main] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2023-07-24T21:07:09.114+03:00  INFO 105252 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8100 (http) with context path ''
+2023-07-24T21:07:09.128+03:00  INFO 105252 --- [main] c.e.couriercase.CouriercaseApplication   : Started CouriercaseApplication in 6.661 seconds (process running for 7.281)
+2023-07-24T21:07:10.900+03:00  INFO 105252 --- [http-nio-8100-exec-1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2023-07-24T21:07:10.901+03:00  INFO 105252 --- [http-nio-8100-exec-1] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2023-07-24T21:07:10.904+03:00  INFO 105252 --- [http-nio-8100-exec-1] o.s.web.servlet.DispatcherServlet        : Completed initialization in 2 ms
+2023-07-24T21:07:11.370+03:00  INFO 105252 --- [http-nio-8100-exec-1] c.e.couriercase.service.CourierService   : Courier with id number 1 is about 15,81 meters close to the store named Ataþehir MMM Migros.
+2023-07-24T21:07:11.393+03:00  INFO 105252 --- [http-nio-8100-exec-1] c.e.couriercase.service.CourierService   : Courier with id number 2 is about 53,79 meters close to the store named Novada MMM Migros.
+2023-07-24T21:07:11.410+03:00  INFO 105252 --- [http-nio-8100-exec-1] c.e.couriercase.service.CourierService   : Courier with id number 3 is about 53,79 meters close to the store named Novada MMM Migros.
+2023-07-24T21:09:10.265+03:00  INFO 104836 --- [main] c.e.couriercase.CouriercaseApplication   : Starting CouriercaseApplication using Java 17.0.7 with PID 104836 (C:\Users\MEHMET\Desktop\MÝGROS\migros-courier-case\target\classes started by MEHMET in C:\Users\MEHMET\Desktop\MÝGROS\migros-courier-case)
+2023-07-24T21:09:10.269+03:00  INFO 104836 --- [main] c.e.couriercase.CouriercaseApplication   : No active profile set, falling back to 1 default profile: "default"
+2023-07-24T21:09:11.180+03:00  INFO 104836 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2023-07-24T21:09:11.274+03:00  INFO 104836 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 81 ms. Found 2 JPA repository interfaces.
+2023-07-24T21:09:12.052+03:00  INFO 104836 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8100 (http)
+2023-07-24T21:09:12.073+03:00  INFO 104836 --- [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2023-07-24T21:09:12.075+03:00  INFO 104836 --- [main] o.apache.catalina.core.StandardEngine    : Starting Servlet engine: [Apache Tomcat/10.1.11]
+2023-07-24T21:09:12.220+03:00  INFO 104836 --- [main] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2023-07-24T21:09:12.221+03:00  INFO 104836 --- [main] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 1869 ms
+2023-07-24T21:09:12.277+03:00  INFO 104836 --- [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
+2023-07-24T21:09:12.486+03:00  INFO 104836 --- [main] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Added connection conn0: url=jdbc:h2:mem:couriertestdb user=SA
+2023-07-24T21:09:12.489+03:00  INFO 104836 --- [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
+2023-07-24T21:09:12.502+03:00  INFO 104836 --- [main] o.s.b.a.h2.H2ConsoleAutoConfiguration    : H2 console available at '/h2-console'. Database available at 'jdbc:h2:mem:couriertestdb'
+2023-07-24T21:09:12.655+03:00  INFO 104836 --- [main] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [name: default]
+2023-07-24T21:09:12.737+03:00  INFO 104836 --- [main] org.hibernate.Version                    : HHH000412: Hibernate ORM core version 6.2.6.Final
+2023-07-24T21:09:12.740+03:00  INFO 104836 --- [main] org.hibernate.cfg.Environment            : HHH000406: Using bytecode reflection optimizer
+2023-07-24T21:09:12.891+03:00  INFO 104836 --- [main] o.h.b.i.BytecodeProviderInitiator        : HHH000021: Bytecode provider name : bytebuddy
+2023-07-24T21:09:13.039+03:00  INFO 104836 --- [main] o.s.o.j.p.SpringPersistenceUnitInfo      : No LoadTimeWeaver setup: ignoring JPA class transformer
+2023-07-24T21:09:13.280+03:00  INFO 104836 --- [main] o.h.b.i.BytecodeProviderInitiator        : HHH000021: Bytecode provider name : bytebuddy
+2023-07-24T21:09:13.960+03:00  INFO 104836 --- [main] o.h.e.t.j.p.i.JtaPlatformInitiator       : HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2023-07-24T21:09:14.038+03:00  INFO 104836 --- [main] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2023-07-24T21:09:14.553+03:00  WARN 104836 --- [main] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2023-07-24T21:09:14.984+03:00  INFO 104836 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8100 (http) with context path ''
+2023-07-24T21:09:14.996+03:00  INFO 104836 --- [main] c.e.couriercase.CouriercaseApplication   : Started CouriercaseApplication in 5.249 seconds (process running for 5.857)
+2023-07-24T21:09:17.333+03:00  INFO 104836 --- [http-nio-8100-exec-1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2023-07-24T21:09:17.336+03:00  INFO 104836 --- [http-nio-8100-exec-1] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2023-07-24T21:09:17.341+03:00  INFO 104836 --- [http-nio-8100-exec-1] o.s.web.servlet.DispatcherServlet        : Completed initialization in 1 ms
+2023-07-24T21:09:17.853+03:00  INFO 104836 --- [http-nio-8100-exec-1] c.e.couriercase.service.CourierService   : Courier with id number 1 is about 15,81 meters close to the store named Ataþehir MMM Migros.
+2023-07-24T21:09:17.876+03:00  INFO 104836 --- [http-nio-8100-exec-1] c.e.couriercase.service.CourierService   : Courier with id number 2 is about 53,79 meters close to the store named Novada MMM Migros.
+2023-07-24T21:09:17.894+03:00  INFO 104836 --- [http-nio-8100-exec-1] c.e.couriercase.service.CourierService   : Courier with id number 3 is about 53,79 meters close to the store named Novada MMM Migros.
+2023-07-24T21:15:57.908+03:00  INFO 119804 --- [main] c.e.couriercase.CouriercaseApplication   : Starting CouriercaseApplication using Java 17.0.7 with PID 119804 (C:\Users\MEHMET\Desktop\MÝGROS\migros-courier-case\target\classes started by MEHMET in C:\Users\MEHMET\Desktop\MÝGROS\migros-courier-case)
+2023-07-24T21:15:57.915+03:00  INFO 119804 --- [main] c.e.couriercase.CouriercaseApplication   : No active profile set, falling back to 1 default profile: "default"
+2023-07-24T21:15:59.584+03:00  INFO 119804 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2023-07-24T21:15:59.679+03:00  INFO 119804 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 76 ms. Found 2 JPA repository interfaces.
+2023-07-24T21:16:00.483+03:00  INFO 119804 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8100 (http)
+2023-07-24T21:16:00.501+03:00  INFO 119804 --- [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2023-07-24T21:16:00.503+03:00  INFO 119804 --- [main] o.apache.catalina.core.StandardEngine    : Starting Servlet engine: [Apache Tomcat/10.1.11]
+2023-07-24T21:16:00.730+03:00  INFO 119804 --- [main] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2023-07-24T21:16:00.731+03:00  INFO 119804 --- [main] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 2663 ms
+2023-07-24T21:16:00.794+03:00  INFO 119804 --- [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
+2023-07-24T21:16:01.027+03:00  INFO 119804 --- [main] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Added connection conn0: url=jdbc:h2:mem:couriertestdb user=SA
+2023-07-24T21:16:01.030+03:00  INFO 119804 --- [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
+2023-07-24T21:16:01.058+03:00  INFO 119804 --- [main] o.s.b.a.h2.H2ConsoleAutoConfiguration    : H2 console available at '/h2-console'. Database available at 'jdbc:h2:mem:couriertestdb'
+2023-07-24T21:16:01.296+03:00  INFO 119804 --- [main] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [name: default]
+2023-07-24T21:16:01.392+03:00  INFO 119804 --- [main] org.hibernate.Version                    : HHH000412: Hibernate ORM core version 6.2.6.Final
+2023-07-24T21:16:01.397+03:00  INFO 119804 --- [main] org.hibernate.cfg.Environment            : HHH000406: Using bytecode reflection optimizer
+2023-07-24T21:16:01.598+03:00  INFO 119804 --- [main] o.h.b.i.BytecodeProviderInitiator        : HHH000021: Bytecode provider name : bytebuddy
+2023-07-24T21:16:01.733+03:00  INFO 119804 --- [main] o.s.o.j.p.SpringPersistenceUnitInfo      : No LoadTimeWeaver setup: ignoring JPA class transformer
+2023-07-24T21:16:01.981+03:00  INFO 119804 --- [main] o.h.b.i.BytecodeProviderInitiator        : HHH000021: Bytecode provider name : bytebuddy
+2023-07-24T21:16:02.640+03:00  INFO 119804 --- [main] o.h.e.t.j.p.i.JtaPlatformInitiator       : HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2023-07-24T21:16:02.710+03:00  INFO 119804 --- [main] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2023-07-24T21:16:03.380+03:00  WARN 119804 --- [main] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2023-07-24T21:16:03.843+03:00  INFO 119804 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8100 (http) with context path ''
+2023-07-24T21:16:03.856+03:00  INFO 119804 --- [main] c.e.couriercase.CouriercaseApplication   : Started CouriercaseApplication in 7.321 seconds (process running for 8.932)
+2023-07-24T21:16:18.896+03:00  INFO 119804 --- [http-nio-8100-exec-1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2023-07-24T21:16:18.897+03:00  INFO 119804 --- [http-nio-8100-exec-1] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2023-07-24T21:16:18.899+03:00  INFO 119804 --- [http-nio-8100-exec-1] o.s.web.servlet.DispatcherServlet        : Completed initialization in 2 ms
+2023-07-24T21:16:19.293+03:00 ERROR 119804 --- [http-nio-8100-exec-1] c.e.c.e.GlobalExceptionHandler           : An error occurred : ErrorResponseDto(path=/courier/change-courier-location, ipAddress=0:0:0:0:0:0:0:1, status=500, error=INTERNAL_SERVER_ERROR, details=[changeCourierLocation.requestDtos[0].time: time_not_null], timestamp=2023-07-24T21:16:19.293808200)
+2023-07-24T21:17:45.905+03:00  INFO 105196 --- [main] c.e.couriercase.CouriercaseApplication   : Starting CouriercaseApplication using Java 17.0.7 with PID 105196 (C:\Users\MEHMET\Desktop\MÝGROS\migros-courier-case\target\classes started by MEHMET in C:\Users\MEHMET\Desktop\MÝGROS\migros-courier-case)
+2023-07-24T21:17:45.911+03:00  INFO 105196 --- [main] c.e.couriercase.CouriercaseApplication   : No active profile set, falling back to 1 default profile: "default"
+2023-07-24T21:17:47.175+03:00  INFO 105196 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2023-07-24T21:17:47.284+03:00  INFO 105196 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 93 ms. Found 2 JPA repository interfaces.
+2023-07-24T21:17:48.016+03:00  INFO 105196 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8100 (http)
+2023-07-24T21:17:48.036+03:00  INFO 105196 --- [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2023-07-24T21:17:48.037+03:00  INFO 105196 --- [main] o.apache.catalina.core.StandardEngine    : Starting Servlet engine: [Apache Tomcat/10.1.11]
+2023-07-24T21:17:48.179+03:00  INFO 105196 --- [main] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2023-07-24T21:17:48.180+03:00  INFO 105196 --- [main] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 2166 ms
+2023-07-24T21:17:48.236+03:00  INFO 105196 --- [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
+2023-07-24T21:17:48.441+03:00  INFO 105196 --- [main] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Added connection conn0: url=jdbc:h2:mem:couriertestdb user=SA
+2023-07-24T21:17:48.443+03:00  INFO 105196 --- [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
+2023-07-24T21:17:48.462+03:00  INFO 105196 --- [main] o.s.b.a.h2.H2ConsoleAutoConfiguration    : H2 console available at '/h2-console'. Database available at 'jdbc:h2:mem:couriertestdb'
+2023-07-24T21:17:48.625+03:00  INFO 105196 --- [main] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [name: default]
+2023-07-24T21:17:48.708+03:00  INFO 105196 --- [main] org.hibernate.Version                    : HHH000412: Hibernate ORM core version 6.2.6.Final
+2023-07-24T21:17:48.711+03:00  INFO 105196 --- [main] org.hibernate.cfg.Environment            : HHH000406: Using bytecode reflection optimizer
+2023-07-24T21:17:48.874+03:00  INFO 105196 --- [main] o.h.b.i.BytecodeProviderInitiator        : HHH000021: Bytecode provider name : bytebuddy
+2023-07-24T21:17:49.068+03:00  INFO 105196 --- [main] o.s.o.j.p.SpringPersistenceUnitInfo      : No LoadTimeWeaver setup: ignoring JPA class transformer
+2023-07-24T21:17:49.609+03:00  INFO 105196 --- [main] o.h.b.i.BytecodeProviderInitiator        : HHH000021: Bytecode provider name : bytebuddy
+2023-07-24T21:17:50.610+03:00  INFO 105196 --- [main] o.h.e.t.j.p.i.JtaPlatformInitiator       : HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2023-07-24T21:17:50.700+03:00  INFO 105196 --- [main] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2023-07-24T21:17:51.292+03:00  WARN 105196 --- [main] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2023-07-24T21:17:51.745+03:00  INFO 105196 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8100 (http) with context path ''
+2023-07-24T21:17:51.758+03:00  INFO 105196 --- [main] c.e.couriercase.CouriercaseApplication   : Started CouriercaseApplication in 6.422 seconds (process running for 6.969)
+2023-07-24T21:17:58.272+03:00  INFO 105196 --- [http-nio-8100-exec-1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2023-07-24T21:17:58.274+03:00  INFO 105196 --- [http-nio-8100-exec-1] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2023-07-24T21:17:58.277+03:00  INFO 105196 --- [http-nio-8100-exec-1] o.s.web.servlet.DispatcherServlet        : Completed initialization in 2 ms
+2023-07-24T21:17:58.605+03:00  WARN 105196 --- [http-nio-8100-exec-1] c.e.c.e.GlobalExceptionHandler           : Validation exception occurred : ErrorResponseDto(path=/courier/change-courier-location, ipAddress=0:0:0:0:0:0:0:1, status=400, error=validation_error, details=[changeCourierLocation.requestDtos[0].time : time_not_null], timestamp=2023-07-24T21:17:58.605567200)
+2023-07-24T21:19:11.264+03:00  INFO 13264 --- [main] c.e.couriercase.CouriercaseApplication   : Starting CouriercaseApplication using Java 17.0.7 with PID 13264 (C:\Users\MEHMET\Desktop\MÝGROS\migros-courier-case\target\classes started by MEHMET in C:\Users\MEHMET\Desktop\MÝGROS\migros-courier-case)
+2023-07-24T21:19:11.269+03:00  INFO 13264 --- [main] c.e.couriercase.CouriercaseApplication   : No active profile set, falling back to 1 default profile: "default"
+2023-07-24T21:19:12.879+03:00  INFO 13264 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2023-07-24T21:19:13.047+03:00  INFO 13264 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 153 ms. Found 2 JPA repository interfaces.
+2023-07-24T21:19:13.880+03:00  INFO 13264 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8100 (http)
+2023-07-24T21:19:13.897+03:00  INFO 13264 --- [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2023-07-24T21:19:13.897+03:00  INFO 13264 --- [main] o.apache.catalina.core.StandardEngine    : Starting Servlet engine: [Apache Tomcat/10.1.11]
+2023-07-24T21:19:14.042+03:00  INFO 13264 --- [main] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2023-07-24T21:19:14.044+03:00  INFO 13264 --- [main] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 2588 ms
+2023-07-24T21:19:14.098+03:00  INFO 13264 --- [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
+2023-07-24T21:19:14.294+03:00  INFO 13264 --- [main] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Added connection conn0: url=jdbc:h2:mem:couriertestdb user=SA
+2023-07-24T21:19:14.298+03:00  INFO 13264 --- [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
+2023-07-24T21:19:14.319+03:00  INFO 13264 --- [main] o.s.b.a.h2.H2ConsoleAutoConfiguration    : H2 console available at '/h2-console'. Database available at 'jdbc:h2:mem:couriertestdb'
+2023-07-24T21:19:14.493+03:00  INFO 13264 --- [main] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [name: default]
+2023-07-24T21:19:14.569+03:00  INFO 13264 --- [main] org.hibernate.Version                    : HHH000412: Hibernate ORM core version 6.2.6.Final
+2023-07-24T21:19:14.577+03:00  INFO 13264 --- [main] org.hibernate.cfg.Environment            : HHH000406: Using bytecode reflection optimizer
+2023-07-24T21:19:14.744+03:00  INFO 13264 --- [main] o.h.b.i.BytecodeProviderInitiator        : HHH000021: Bytecode provider name : bytebuddy
+2023-07-24T21:19:14.909+03:00  INFO 13264 --- [main] o.s.o.j.p.SpringPersistenceUnitInfo      : No LoadTimeWeaver setup: ignoring JPA class transformer
+2023-07-24T21:19:15.188+03:00  INFO 13264 --- [main] o.h.b.i.BytecodeProviderInitiator        : HHH000021: Bytecode provider name : bytebuddy
+2023-07-24T21:19:15.939+03:00  INFO 13264 --- [main] o.h.e.t.j.p.i.JtaPlatformInitiator       : HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2023-07-24T21:19:16.000+03:00  INFO 13264 --- [main] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2023-07-24T21:19:16.648+03:00  WARN 13264 --- [main] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2023-07-24T21:19:17.103+03:00  INFO 13264 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8100 (http) with context path ''
+2023-07-24T21:19:17.114+03:00  INFO 13264 --- [main] c.e.couriercase.CouriercaseApplication   : Started CouriercaseApplication in 7.078 seconds (process running for 7.906)
+2023-07-24T21:19:18.937+03:00  INFO 13264 --- [http-nio-8100-exec-1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2023-07-24T21:19:18.938+03:00  INFO 13264 --- [http-nio-8100-exec-1] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2023-07-24T21:19:18.941+03:00  INFO 13264 --- [http-nio-8100-exec-1] o.s.web.servlet.DispatcherServlet        : Completed initialization in 2 ms
+2023-07-24T21:19:19.217+03:00  WARN 13264 --- [http-nio-8100-exec-1] c.e.c.e.GlobalExceptionHandler           : Validation exception occurred : ErrorResponseDto(path=/courier/change-courier-location, ipAddress=0:0:0:0:0:0:0:1, status=400, error=validation_error, details=[changeCourierLocation.requestDtos : Request not empty], timestamp=2023-07-24T21:19:19.217891900)
+2023-07-24T21:19:26.927+03:00 ERROR 13264 --- [http-nio-8100-exec-4] c.e.c.e.GlobalExceptionHandler           : An error occurred : ErrorResponseDto(path=/courier/change-courier-location, ipAddress=0:0:0:0:0:0:0:1, status=500, error=INTERNAL_SERVER_ERROR, details=[Required request body is missing: public org.springframework.http.ResponseEntity<java.util.List<java.lang.String>> com.emin.couriercase.controller.CourierController.changeCourierLocation(java.util.List<com.emin.couriercase.model.dto.CourierLocationRequestDto>) throws java.io.IOException], timestamp=2023-07-24T21:19:26.927521900)
+2023-07-24T21:40:05.737+03:00  WARN 13264 --- [http-nio-8100-exec-6] c.e.c.e.GlobalExceptionHandler           : A warning occurred : ErrorResponseDto(path=/courier/get-total-travel-distance/10, ipAddress=0:0:0:0:0:0:0:1, status=204, error=courier not found, details=[courier not found], timestamp=2023-07-24T21:40:05.737527)
+2023-07-24T21:40:09.507+03:00 ERROR 13264 --- [http-nio-8100-exec-8] c.e.c.e.GlobalExceptionHandler           : An error occurred : ErrorResponseDto(path=/courier/get-total-travel-distance/asd, ipAddress=0:0:0:0:0:0:0:1, status=500, error=INTERNAL_SERVER_ERROR, details=[Failed to convert value of type 'java.lang.String' to required type 'java.lang.Integer'; For input string: "asd"], timestamp=2023-07-24T21:40:09.507495100)
+2023-07-24T21:41:08.028+03:00  INFO 7304 --- [main] c.e.couriercase.CouriercaseApplication   : Starting CouriercaseApplication using Java 17.0.7 with PID 7304 (C:\Users\MEHMET\Desktop\MÝGROS\migros-courier-case\target\classes started by MEHMET in C:\Users\MEHMET\Desktop\MÝGROS\migros-courier-case)
+2023-07-24T21:41:08.034+03:00  INFO 7304 --- [main] c.e.couriercase.CouriercaseApplication   : No active profile set, falling back to 1 default profile: "default"
+2023-07-24T21:41:09.747+03:00  INFO 7304 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2023-07-24T21:41:09.890+03:00  INFO 7304 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 119 ms. Found 2 JPA repository interfaces.
+2023-07-24T21:41:10.843+03:00  INFO 7304 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8100 (http)
+2023-07-24T21:41:10.857+03:00  INFO 7304 --- [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2023-07-24T21:41:10.858+03:00  INFO 7304 --- [main] o.apache.catalina.core.StandardEngine    : Starting Servlet engine: [Apache Tomcat/10.1.11]
+2023-07-24T21:41:11.011+03:00  INFO 7304 --- [main] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2023-07-24T21:41:11.012+03:00  INFO 7304 --- [main] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 2787 ms
+2023-07-24T21:41:11.065+03:00  INFO 7304 --- [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
+2023-07-24T21:41:11.442+03:00  INFO 7304 --- [main] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Added connection conn0: url=jdbc:h2:mem:couriertestdb user=SA
+2023-07-24T21:41:11.454+03:00  INFO 7304 --- [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
+2023-07-24T21:41:11.490+03:00  INFO 7304 --- [main] o.s.b.a.h2.H2ConsoleAutoConfiguration    : H2 console available at '/h2-console'. Database available at 'jdbc:h2:mem:couriertestdb'
+2023-07-24T21:41:11.832+03:00  INFO 7304 --- [main] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [name: default]
+2023-07-24T21:41:11.941+03:00  INFO 7304 --- [main] org.hibernate.Version                    : HHH000412: Hibernate ORM core version 6.2.6.Final
+2023-07-24T21:41:11.944+03:00  INFO 7304 --- [main] org.hibernate.cfg.Environment            : HHH000406: Using bytecode reflection optimizer
+2023-07-24T21:41:12.128+03:00  INFO 7304 --- [main] o.h.b.i.BytecodeProviderInitiator        : HHH000021: Bytecode provider name : bytebuddy
+2023-07-24T21:41:12.284+03:00  INFO 7304 --- [main] o.s.o.j.p.SpringPersistenceUnitInfo      : No LoadTimeWeaver setup: ignoring JPA class transformer
+2023-07-24T21:41:12.582+03:00  INFO 7304 --- [main] o.h.b.i.BytecodeProviderInitiator        : HHH000021: Bytecode provider name : bytebuddy
+2023-07-24T21:41:13.305+03:00  INFO 7304 --- [main] o.h.e.t.j.p.i.JtaPlatformInitiator       : HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2023-07-24T21:41:13.367+03:00  INFO 7304 --- [main] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2023-07-24T21:41:13.938+03:00  WARN 7304 --- [main] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2023-07-24T21:41:14.376+03:00  INFO 7304 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8100 (http) with context path ''
+2023-07-24T21:41:14.393+03:00  INFO 7304 --- [main] c.e.couriercase.CouriercaseApplication   : Started CouriercaseApplication in 7.197 seconds (process running for 8.21)
+2023-07-24T21:43:54.438+03:00  INFO 7304 --- [http-nio-8100-exec-1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2023-07-24T21:43:54.439+03:00  INFO 7304 --- [http-nio-8100-exec-1] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2023-07-24T21:43:54.442+03:00  INFO 7304 --- [http-nio-8100-exec-1] o.s.web.servlet.DispatcherServlet        : Completed initialization in 3 ms
+2023-07-24T21:43:54.894+03:00  INFO 7304 --- [http-nio-8100-exec-1] c.e.couriercase.service.CourierService   : Courier with id number 1 is about 15,81 meters close to the store named Ataþehir MMM Migros.
+2023-07-24T21:43:54.903+03:00  INFO 7304 --- [http-nio-8100-exec-1] c.e.couriercase.service.CourierService   : Courier with id number 2 is about 53,79 meters close to the store named Novada MMM Migros.
+2023-07-24T21:43:54.911+03:00  INFO 7304 --- [http-nio-8100-exec-1] c.e.couriercase.service.CourierService   : Courier with id number 3 is about 2,75 meters close to the store named Beylikdüzü 5M Migros.
+2023-07-24T21:43:54.927+03:00  INFO 7304 --- [http-nio-8100-exec-1] c.e.couriercase.service.CourierService   : Courier with id number 5 is about 1,12 meters close to the store named Caddebostan MMM Migros.
+2023-07-24T21:45:00.637+03:00  INFO 7304 --- [http-nio-8100-exec-7] c.e.couriercase.service.CourierService   : Courier with id number 4 is about 2,01 meters close to the store named Ortaköy MMM Migros.
+2023-07-24T21:46:12.242+03:00  INFO 7304 --- [http-nio-8100-exec-10] c.e.couriercase.service.CourierService   : Courier with id number 1 is about 18,86 meters close to the store named Ataþehir MMM Migros.
+2023-07-24T21:46:12.254+03:00  INFO 7304 --- [http-nio-8100-exec-10] c.e.couriercase.service.CourierService   : Courier with id number 2 is about 56,79 meters close to the store named Novada MMM Migros.
+2023-07-24T21:46:12.264+03:00  INFO 7304 --- [http-nio-8100-exec-10] c.e.couriercase.service.CourierService   : Courier with id number 3 is about 3,07 meters close to the store named Beylikdüzü 5M Migros.
+2023-07-24T21:46:12.274+03:00  INFO 7304 --- [http-nio-8100-exec-10] c.e.couriercase.service.CourierService   : Courier with id number 4 is about 2,49 meters close to the store named Ortaköy MMM Migros.
+2023-07-24T21:46:12.282+03:00  INFO 7304 --- [http-nio-8100-exec-10] c.e.couriercase.service.CourierService   : Courier with id number 5 is about 2,28 meters close to the store named Caddebostan MMM Migros.
+2023-07-24T22:06:39.708+03:00  INFO 97216 --- [main] c.e.c.CouriercaseApplicationTests        : Starting CouriercaseApplicationTests using Java 17.0.3.1 with PID 97216 (started by MEHMET in C:\Users\MEHMET\Desktop\MÝGROS\migros-courier-case)
+2023-07-24T22:06:39.710+03:00  INFO 97216 --- [main] c.e.c.CouriercaseApplicationTests        : No active profile set, falling back to 1 default profile: "default"
+2023-07-24T22:06:40.605+03:00  INFO 97216 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2023-07-24T22:06:40.678+03:00  INFO 97216 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 58 ms. Found 2 JPA repository interfaces.
+2023-07-24T22:06:41.132+03:00  INFO 97216 --- [main] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [name: default]
+2023-07-24T22:06:41.208+03:00  INFO 97216 --- [main] org.hibernate.Version                    : HHH000412: Hibernate ORM core version 6.2.6.Final
+2023-07-24T22:06:41.210+03:00  INFO 97216 --- [main] org.hibernate.cfg.Environment            : HHH000406: Using bytecode reflection optimizer
+2023-07-24T22:06:41.465+03:00  INFO 97216 --- [main] o.h.b.i.BytecodeProviderInitiator        : HHH000021: Bytecode provider name : bytebuddy
+2023-07-24T22:06:41.617+03:00  INFO 97216 --- [main] o.s.o.j.p.SpringPersistenceUnitInfo      : No LoadTimeWeaver setup: ignoring JPA class transformer
+2023-07-24T22:06:41.637+03:00  INFO 97216 --- [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
+2023-07-24T22:06:41.829+03:00  INFO 97216 --- [main] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Added connection conn0: url=jdbc:h2:mem:couriertestdb user=SA
+2023-07-24T22:06:41.831+03:00  INFO 97216 --- [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
+2023-07-24T22:06:42.032+03:00  INFO 97216 --- [main] o.h.b.i.BytecodeProviderInitiator        : HHH000021: Bytecode provider name : bytebuddy
+2023-07-24T22:06:42.596+03:00  INFO 97216 --- [main] o.h.e.t.j.p.i.JtaPlatformInitiator       : HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2023-07-24T22:06:42.643+03:00  INFO 97216 --- [main] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2023-07-24T22:06:43.331+03:00  WARN 97216 --- [main] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2023-07-24T22:06:43.743+03:00  INFO 97216 --- [main] o.s.b.a.h2.H2ConsoleAutoConfiguration    : H2 console available at '/h2-console'. Database available at 'jdbc:h2:mem:couriertestdb'
+2023-07-24T22:06:43.795+03:00  INFO 97216 --- [main] c.e.c.CouriercaseApplicationTests        : Started CouriercaseApplicationTests in 4.404 seconds (process running for 5.299)
+2023-07-24T22:06:44.409+03:00  INFO 97216 --- [SpringApplicationShutdownHook] j.LocalContainerEntityManagerFactoryBean : Closing JPA EntityManagerFactory for persistence unit 'default'
+2023-07-24T22:06:44.611+03:00  INFO 97216 --- [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown initiated...
+2023-07-24T22:06:44.623+03:00  INFO 97216 --- [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown completed.
+2023-07-24T22:22:46.154+03:00  INFO 113264 --- [main] c.e.couriercase.CouriercaseApplication   : Starting CouriercaseApplication using Java 17.0.7 with PID 113264 (C:\Users\MEHMET\Desktop\MÝGROS\migros-courier-case\target\classes started by MEHMET in C:\Users\MEHMET\Desktop\MÝGROS\migros-courier-case)
+2023-07-24T22:22:46.159+03:00  INFO 113264 --- [main] c.e.couriercase.CouriercaseApplication   : No active profile set, falling back to 1 default profile: "default"
+2023-07-24T22:22:47.061+03:00  INFO 113264 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2023-07-24T22:22:47.148+03:00  INFO 113264 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 73 ms. Found 2 JPA repository interfaces.
+2023-07-24T22:22:47.837+03:00  INFO 113264 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8100 (http)
+2023-07-24T22:22:47.852+03:00  INFO 113264 --- [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2023-07-24T22:22:47.853+03:00  INFO 113264 --- [main] o.apache.catalina.core.StandardEngine    : Starting Servlet engine: [Apache Tomcat/10.1.11]
+2023-07-24T22:22:47.988+03:00  INFO 113264 --- [main] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2023-07-24T22:22:47.989+03:00  INFO 113264 --- [main] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 1749 ms
+2023-07-24T22:22:48.036+03:00  INFO 113264 --- [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
+2023-07-24T22:22:48.291+03:00  INFO 113264 --- [main] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Added connection conn0: url=jdbc:h2:mem:couriertestdb user=SA
+2023-07-24T22:22:48.295+03:00  INFO 113264 --- [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
+2023-07-24T22:22:48.316+03:00  INFO 113264 --- [main] o.s.b.a.h2.H2ConsoleAutoConfiguration    : H2 console available at '/h2-console'. Database available at 'jdbc:h2:mem:couriertestdb'
+2023-07-24T22:22:48.488+03:00  INFO 113264 --- [main] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [name: default]
+2023-07-24T22:22:48.554+03:00  INFO 113264 --- [main] org.hibernate.Version                    : HHH000412: Hibernate ORM core version 6.2.6.Final
+2023-07-24T22:22:48.558+03:00  INFO 113264 --- [main] org.hibernate.cfg.Environment            : HHH000406: Using bytecode reflection optimizer
+2023-07-24T22:22:48.730+03:00  INFO 113264 --- [main] o.h.b.i.BytecodeProviderInitiator        : HHH000021: Bytecode provider name : bytebuddy
+2023-07-24T22:22:48.892+03:00  INFO 113264 --- [main] o.s.o.j.p.SpringPersistenceUnitInfo      : No LoadTimeWeaver setup: ignoring JPA class transformer
+2023-07-24T22:22:49.155+03:00  INFO 113264 --- [main] o.h.b.i.BytecodeProviderInitiator        : HHH000021: Bytecode provider name : bytebuddy
+2023-07-24T22:22:49.868+03:00  INFO 113264 --- [main] o.h.e.t.j.p.i.JtaPlatformInitiator       : HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2023-07-24T22:22:49.921+03:00  INFO 113264 --- [main] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2023-07-24T22:22:50.464+03:00  WARN 113264 --- [main] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2023-07-24T22:22:50.906+03:00  INFO 113264 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8100 (http) with context path ''
+2023-07-24T22:22:50.922+03:00  INFO 113264 --- [main] c.e.couriercase.CouriercaseApplication   : Started CouriercaseApplication in 5.24 seconds (process running for 5.895)
+2023-07-24T22:22:54.112+03:00  INFO 113264 --- [http-nio-8100-exec-1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2023-07-24T22:22:54.113+03:00  INFO 113264 --- [http-nio-8100-exec-1] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2023-07-24T22:22:54.115+03:00  INFO 113264 --- [http-nio-8100-exec-1] o.s.web.servlet.DispatcherServlet        : Completed initialization in 1 ms
+2023-07-24T22:22:54.409+03:00 ERROR 113264 --- [http-nio-8100-exec-1] c.e.c.e.GlobalExceptionHandler           : An error occurred : ErrorResponseDto(path=/courier/change-courier-location, ipAddress=0:0:0:0:0:0:0:1, status=500, error=INTERNAL_SERVER_ERROR, details=[.\resources\store.json (Sistem belirtilen yolu bulamýyor)], timestamp=2023-07-24T22:22:54.409733)
+2023-07-24T22:23:20.860+03:00  INFO 116804 --- [main] c.e.couriercase.CouriercaseApplication   : Starting CouriercaseApplication using Java 17.0.7 with PID 116804 (C:\Users\MEHMET\Desktop\MÝGROS\migros-courier-case\target\classes started by MEHMET in C:\Users\MEHMET\Desktop\MÝGROS\migros-courier-case)
+2023-07-24T22:23:20.863+03:00  INFO 116804 --- [main] c.e.couriercase.CouriercaseApplication   : No active profile set, falling back to 1 default profile: "default"
+2023-07-24T22:23:21.773+03:00  INFO 116804 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2023-07-24T22:23:21.855+03:00  INFO 116804 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 67 ms. Found 2 JPA repository interfaces.
+2023-07-24T22:23:22.590+03:00  INFO 116804 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8100 (http)
+2023-07-24T22:23:22.604+03:00  INFO 116804 --- [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2023-07-24T22:23:22.605+03:00  INFO 116804 --- [main] o.apache.catalina.core.StandardEngine    : Starting Servlet engine: [Apache Tomcat/10.1.11]
+2023-07-24T22:23:22.725+03:00  INFO 116804 --- [main] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2023-07-24T22:23:22.726+03:00  INFO 116804 --- [main] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 1788 ms
+2023-07-24T22:23:22.773+03:00  INFO 116804 --- [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
+2023-07-24T22:23:22.967+03:00  INFO 116804 --- [main] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Added connection conn0: url=jdbc:h2:mem:couriertestdb user=SA
+2023-07-24T22:23:22.970+03:00  INFO 116804 --- [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
+2023-07-24T22:23:22.985+03:00  INFO 116804 --- [main] o.s.b.a.h2.H2ConsoleAutoConfiguration    : H2 console available at '/h2-console'. Database available at 'jdbc:h2:mem:couriertestdb'
+2023-07-24T22:23:23.154+03:00  INFO 116804 --- [main] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [name: default]
+2023-07-24T22:23:23.223+03:00  INFO 116804 --- [main] org.hibernate.Version                    : HHH000412: Hibernate ORM core version 6.2.6.Final
+2023-07-24T22:23:23.226+03:00  INFO 116804 --- [main] org.hibernate.cfg.Environment            : HHH000406: Using bytecode reflection optimizer
+2023-07-24T22:23:23.382+03:00  INFO 116804 --- [main] o.h.b.i.BytecodeProviderInitiator        : HHH000021: Bytecode provider name : bytebuddy
+2023-07-24T22:23:23.531+03:00  INFO 116804 --- [main] o.s.o.j.p.SpringPersistenceUnitInfo      : No LoadTimeWeaver setup: ignoring JPA class transformer
+2023-07-24T22:23:23.786+03:00  INFO 116804 --- [main] o.h.b.i.BytecodeProviderInitiator        : HHH000021: Bytecode provider name : bytebuddy
+2023-07-24T22:23:24.557+03:00  INFO 116804 --- [main] o.h.e.t.j.p.i.JtaPlatformInitiator       : HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2023-07-24T22:23:24.617+03:00  INFO 116804 --- [main] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2023-07-24T22:23:25.147+03:00  WARN 116804 --- [main] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2023-07-24T22:23:25.610+03:00  INFO 116804 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8100 (http) with context path ''
+2023-07-24T22:23:25.621+03:00  INFO 116804 --- [main] c.e.couriercase.CouriercaseApplication   : Started CouriercaseApplication in 5.349 seconds (process running for 6.421)
+2023-07-24T22:23:28.898+03:00  INFO 116804 --- [http-nio-8100-exec-2] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2023-07-24T22:23:28.898+03:00  INFO 116804 --- [http-nio-8100-exec-2] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2023-07-24T22:23:28.900+03:00  INFO 116804 --- [http-nio-8100-exec-2] o.s.web.servlet.DispatcherServlet        : Completed initialization in 1 ms
+2023-07-24T22:23:29.185+03:00 ERROR 116804 --- [http-nio-8100-exec-2] c.e.c.e.GlobalExceptionHandler           : An error occurred : ErrorResponseDto(path=/courier/change-courier-location, ipAddress=0:0:0:0:0:0:0:1, status=500, error=INTERNAL_SERVER_ERROR, details=[\resources\store.json (Sistem belirtilen yolu bulamýyor)], timestamp=2023-07-24T22:23:29.185700)
+2023-07-24T22:27:17.706+03:00  INFO 120908 --- [main] c.e.couriercase.CouriercaseApplication   : Starting CouriercaseApplication using Java 17.0.7 with PID 120908 (C:\Users\MEHMET\Desktop\MÝGROS\migros-courier-case\target\classes started by MEHMET in C:\Users\MEHMET\Desktop\MÝGROS\migros-courier-case)
+2023-07-24T22:27:17.710+03:00  INFO 120908 --- [main] c.e.couriercase.CouriercaseApplication   : No active profile set, falling back to 1 default profile: "default"
+2023-07-24T22:27:18.603+03:00  INFO 120908 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2023-07-24T22:27:18.679+03:00  INFO 120908 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 64 ms. Found 2 JPA repository interfaces.
+2023-07-24T22:27:19.407+03:00  INFO 120908 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8100 (http)
+2023-07-24T22:27:19.420+03:00  INFO 120908 --- [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2023-07-24T22:27:19.421+03:00  INFO 120908 --- [main] o.apache.catalina.core.StandardEngine    : Starting Servlet engine: [Apache Tomcat/10.1.11]
+2023-07-24T22:27:19.562+03:00  INFO 120908 --- [main] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2023-07-24T22:27:19.564+03:00  INFO 120908 --- [main] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 1769 ms
+2023-07-24T22:27:19.611+03:00  INFO 120908 --- [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
+2023-07-24T22:27:19.801+03:00  INFO 120908 --- [main] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Added connection conn0: url=jdbc:h2:mem:couriertestdb user=SA
+2023-07-24T22:27:19.805+03:00  INFO 120908 --- [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
+2023-07-24T22:27:19.821+03:00  INFO 120908 --- [main] o.s.b.a.h2.H2ConsoleAutoConfiguration    : H2 console available at '/h2-console'. Database available at 'jdbc:h2:mem:couriertestdb'
+2023-07-24T22:27:19.968+03:00  INFO 120908 --- [main] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [name: default]
+2023-07-24T22:27:20.045+03:00  INFO 120908 --- [main] org.hibernate.Version                    : HHH000412: Hibernate ORM core version 6.2.6.Final
+2023-07-24T22:27:20.049+03:00  INFO 120908 --- [main] org.hibernate.cfg.Environment            : HHH000406: Using bytecode reflection optimizer
+2023-07-24T22:27:20.219+03:00  INFO 120908 --- [main] o.h.b.i.BytecodeProviderInitiator        : HHH000021: Bytecode provider name : bytebuddy
+2023-07-24T22:27:20.372+03:00  INFO 120908 --- [main] o.s.o.j.p.SpringPersistenceUnitInfo      : No LoadTimeWeaver setup: ignoring JPA class transformer
+2023-07-24T22:27:20.612+03:00  INFO 120908 --- [main] o.h.b.i.BytecodeProviderInitiator        : HHH000021: Bytecode provider name : bytebuddy
+2023-07-24T22:27:21.285+03:00  INFO 120908 --- [main] o.h.e.t.j.p.i.JtaPlatformInitiator       : HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2023-07-24T22:27:21.347+03:00  INFO 120908 --- [main] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2023-07-24T22:27:21.874+03:00  WARN 120908 --- [main] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2023-07-24T22:27:22.316+03:00  INFO 120908 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8100 (http) with context path ''
+2023-07-24T22:27:22.330+03:00  INFO 120908 --- [main] c.e.couriercase.CouriercaseApplication   : Started CouriercaseApplication in 5.118 seconds (process running for 5.575)
+2023-07-24T22:27:27.100+03:00  INFO 120908 --- [http-nio-8100-exec-2] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2023-07-24T22:27:27.101+03:00  INFO 120908 --- [http-nio-8100-exec-2] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2023-07-24T22:27:27.103+03:00  INFO 120908 --- [http-nio-8100-exec-2] o.s.web.servlet.DispatcherServlet        : Completed initialization in 2 ms
+2023-07-24T22:27:27.340+03:00 ERROR 120908 --- [http-nio-8100-exec-2] c.e.c.e.GlobalExceptionHandler           : An error occurred : ErrorResponseDto(path=/courier/change-courier-location, ipAddress=0:0:0:0:0:0:0:1, status=500, error=INTERNAL_SERVER_ERROR, details=[argument "src" is null], timestamp=2023-07-24T22:27:27.340704100)
+2023-07-24T22:28:05.351+03:00  INFO 8284 --- [main] c.e.couriercase.CouriercaseApplication   : Starting CouriercaseApplication using Java 17.0.7 with PID 8284 (C:\Users\MEHMET\Desktop\MÝGROS\migros-courier-case\target\classes started by MEHMET in C:\Users\MEHMET\Desktop\MÝGROS\migros-courier-case)
+2023-07-24T22:28:05.355+03:00  INFO 8284 --- [main] c.e.couriercase.CouriercaseApplication   : No active profile set, falling back to 1 default profile: "default"
+2023-07-24T22:28:06.358+03:00  INFO 8284 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2023-07-24T22:28:06.454+03:00  INFO 8284 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 82 ms. Found 2 JPA repository interfaces.
+2023-07-24T22:28:07.161+03:00  INFO 8284 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8100 (http)
+2023-07-24T22:28:07.175+03:00  INFO 8284 --- [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2023-07-24T22:28:07.176+03:00  INFO 8284 --- [main] o.apache.catalina.core.StandardEngine    : Starting Servlet engine: [Apache Tomcat/10.1.11]
+2023-07-24T22:28:07.309+03:00  INFO 8284 --- [main] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2023-07-24T22:28:07.310+03:00  INFO 8284 --- [main] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 1866 ms
+2023-07-24T22:28:07.360+03:00  INFO 8284 --- [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
+2023-07-24T22:28:07.554+03:00  INFO 8284 --- [main] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Added connection conn0: url=jdbc:h2:mem:couriertestdb user=SA
+2023-07-24T22:28:07.557+03:00  INFO 8284 --- [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
+2023-07-24T22:28:07.573+03:00  INFO 8284 --- [main] o.s.b.a.h2.H2ConsoleAutoConfiguration    : H2 console available at '/h2-console'. Database available at 'jdbc:h2:mem:couriertestdb'
+2023-07-24T22:28:07.723+03:00  INFO 8284 --- [main] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [name: default]
+2023-07-24T22:28:07.783+03:00  INFO 8284 --- [main] org.hibernate.Version                    : HHH000412: Hibernate ORM core version 6.2.6.Final
+2023-07-24T22:28:07.788+03:00  INFO 8284 --- [main] org.hibernate.cfg.Environment            : HHH000406: Using bytecode reflection optimizer
+2023-07-24T22:28:07.935+03:00  INFO 8284 --- [main] o.h.b.i.BytecodeProviderInitiator        : HHH000021: Bytecode provider name : bytebuddy
+2023-07-24T22:28:08.085+03:00  INFO 8284 --- [main] o.s.o.j.p.SpringPersistenceUnitInfo      : No LoadTimeWeaver setup: ignoring JPA class transformer
+2023-07-24T22:28:08.326+03:00  INFO 8284 --- [main] o.h.b.i.BytecodeProviderInitiator        : HHH000021: Bytecode provider name : bytebuddy
+2023-07-24T22:28:08.975+03:00  INFO 8284 --- [main] o.h.e.t.j.p.i.JtaPlatformInitiator       : HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2023-07-24T22:28:09.037+03:00  INFO 8284 --- [main] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2023-07-24T22:28:09.553+03:00  WARN 8284 --- [main] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2023-07-24T22:28:09.981+03:00  INFO 8284 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8100 (http) with context path ''
+2023-07-24T22:28:09.994+03:00  INFO 8284 --- [main] c.e.couriercase.CouriercaseApplication   : Started CouriercaseApplication in 5.538 seconds (process running for 6.189)
+2023-07-24T22:28:12.663+03:00  INFO 8284 --- [http-nio-8100-exec-2] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2023-07-24T22:28:12.664+03:00  INFO 8284 --- [http-nio-8100-exec-2] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2023-07-24T22:28:12.667+03:00  INFO 8284 --- [http-nio-8100-exec-2] o.s.web.servlet.DispatcherServlet        : Completed initialization in 2 ms
+2023-07-24T22:28:12.954+03:00 ERROR 8284 --- [http-nio-8100-exec-2] c.e.c.e.GlobalExceptionHandler           : An error occurred : ErrorResponseDto(path=/courier/change-courier-location, ipAddress=0:0:0:0:0:0:0:1, status=500, error=INTERNAL_SERVER_ERROR, details=[argument "src" is null], timestamp=2023-07-24T22:28:12.953808200)
+2023-07-24T22:28:36.849+03:00  INFO 113956 --- [main] c.e.couriercase.CouriercaseApplication   : Starting CouriercaseApplication using Java 17.0.7 with PID 113956 (C:\Users\MEHMET\Desktop\MÝGROS\migros-courier-case\target\classes started by MEHMET in C:\Users\MEHMET\Desktop\MÝGROS\migros-courier-case)
+2023-07-24T22:28:36.853+03:00  INFO 113956 --- [main] c.e.couriercase.CouriercaseApplication   : No active profile set, falling back to 1 default profile: "default"
+2023-07-24T22:28:37.733+03:00  INFO 113956 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2023-07-24T22:28:37.819+03:00  INFO 113956 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 75 ms. Found 2 JPA repository interfaces.
+2023-07-24T22:28:38.555+03:00  INFO 113956 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8100 (http)
+2023-07-24T22:28:38.572+03:00  INFO 113956 --- [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2023-07-24T22:28:38.574+03:00  INFO 113956 --- [main] o.apache.catalina.core.StandardEngine    : Starting Servlet engine: [Apache Tomcat/10.1.11]
+2023-07-24T22:28:38.707+03:00  INFO 113956 --- [main] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2023-07-24T22:28:38.708+03:00  INFO 113956 --- [main] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 1776 ms
+2023-07-24T22:28:38.757+03:00  INFO 113956 --- [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
+2023-07-24T22:28:38.945+03:00  INFO 113956 --- [main] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Added connection conn0: url=jdbc:h2:mem:couriertestdb user=SA
+2023-07-24T22:28:38.948+03:00  INFO 113956 --- [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
+2023-07-24T22:28:38.963+03:00  INFO 113956 --- [main] o.s.b.a.h2.H2ConsoleAutoConfiguration    : H2 console available at '/h2-console'. Database available at 'jdbc:h2:mem:couriertestdb'
+2023-07-24T22:28:39.131+03:00  INFO 113956 --- [main] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [name: default]
+2023-07-24T22:28:39.192+03:00  INFO 113956 --- [main] org.hibernate.Version                    : HHH000412: Hibernate ORM core version 6.2.6.Final
+2023-07-24T22:28:39.195+03:00  INFO 113956 --- [main] org.hibernate.cfg.Environment            : HHH000406: Using bytecode reflection optimizer
+2023-07-24T22:28:39.347+03:00  INFO 113956 --- [main] o.h.b.i.BytecodeProviderInitiator        : HHH000021: Bytecode provider name : bytebuddy
+2023-07-24T22:28:39.483+03:00  INFO 113956 --- [main] o.s.o.j.p.SpringPersistenceUnitInfo      : No LoadTimeWeaver setup: ignoring JPA class transformer
+2023-07-24T22:28:39.728+03:00  INFO 113956 --- [main] o.h.b.i.BytecodeProviderInitiator        : HHH000021: Bytecode provider name : bytebuddy
+2023-07-24T22:28:40.438+03:00  INFO 113956 --- [main] o.h.e.t.j.p.i.JtaPlatformInitiator       : HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2023-07-24T22:28:40.488+03:00  INFO 113956 --- [main] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2023-07-24T22:28:41.039+03:00  WARN 113956 --- [main] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2023-07-24T22:28:41.500+03:00  INFO 113956 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8100 (http) with context path ''
+2023-07-24T22:28:41.512+03:00  INFO 113956 --- [main] c.e.couriercase.CouriercaseApplication   : Started CouriercaseApplication in 5.145 seconds (process running for 5.671)
+2023-07-24T22:28:44.943+03:00  INFO 113956 --- [http-nio-8100-exec-1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2023-07-24T22:28:44.944+03:00  INFO 113956 --- [http-nio-8100-exec-1] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2023-07-24T22:28:44.946+03:00  INFO 113956 --- [http-nio-8100-exec-1] o.s.web.servlet.DispatcherServlet        : Completed initialization in 2 ms
+2023-07-24T22:28:45.253+03:00 ERROR 113956 --- [http-nio-8100-exec-1] c.e.c.e.GlobalExceptionHandler           : An error occurred : ErrorResponseDto(path=/courier/change-courier-location, ipAddress=0:0:0:0:0:0:0:1, status=500, error=INTERNAL_SERVER_ERROR, details=[argument "src" is null], timestamp=2023-07-24T22:28:45.253234600)
+2023-07-24T22:29:15.648+03:00  INFO 91144 --- [main] c.e.couriercase.CouriercaseApplication   : Starting CouriercaseApplication using Java 17.0.7 with PID 91144 (C:\Users\MEHMET\Desktop\MÝGROS\migros-courier-case\target\classes started by MEHMET in C:\Users\MEHMET\Desktop\MÝGROS\migros-courier-case)
+2023-07-24T22:29:15.653+03:00  INFO 91144 --- [main] c.e.couriercase.CouriercaseApplication   : No active profile set, falling back to 1 default profile: "default"
+2023-07-24T22:29:16.572+03:00  INFO 91144 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2023-07-24T22:29:16.657+03:00  INFO 91144 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 74 ms. Found 2 JPA repository interfaces.
+2023-07-24T22:29:17.462+03:00  INFO 91144 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8100 (http)
+2023-07-24T22:29:17.476+03:00  INFO 91144 --- [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2023-07-24T22:29:17.477+03:00  INFO 91144 --- [main] o.apache.catalina.core.StandardEngine    : Starting Servlet engine: [Apache Tomcat/10.1.11]
+2023-07-24T22:29:17.681+03:00  INFO 91144 --- [main] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2023-07-24T22:29:17.682+03:00  INFO 91144 --- [main] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 1932 ms
+2023-07-24T22:29:17.734+03:00  INFO 91144 --- [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
+2023-07-24T22:29:17.951+03:00  INFO 91144 --- [main] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Added connection conn0: url=jdbc:h2:mem:couriertestdb user=SA
+2023-07-24T22:29:17.954+03:00  INFO 91144 --- [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
+2023-07-24T22:29:17.973+03:00  INFO 91144 --- [main] o.s.b.a.h2.H2ConsoleAutoConfiguration    : H2 console available at '/h2-console'. Database available at 'jdbc:h2:mem:couriertestdb'
+2023-07-24T22:29:18.139+03:00  INFO 91144 --- [main] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [name: default]
+2023-07-24T22:29:18.203+03:00  INFO 91144 --- [main] org.hibernate.Version                    : HHH000412: Hibernate ORM core version 6.2.6.Final
+2023-07-24T22:29:18.207+03:00  INFO 91144 --- [main] org.hibernate.cfg.Environment            : HHH000406: Using bytecode reflection optimizer
+2023-07-24T22:29:18.360+03:00  INFO 91144 --- [main] o.h.b.i.BytecodeProviderInitiator        : HHH000021: Bytecode provider name : bytebuddy
+2023-07-24T22:29:18.492+03:00  INFO 91144 --- [main] o.s.o.j.p.SpringPersistenceUnitInfo      : No LoadTimeWeaver setup: ignoring JPA class transformer
+2023-07-24T22:29:18.728+03:00  INFO 91144 --- [main] o.h.b.i.BytecodeProviderInitiator        : HHH000021: Bytecode provider name : bytebuddy
+2023-07-24T22:29:19.373+03:00  INFO 91144 --- [main] o.h.e.t.j.p.i.JtaPlatformInitiator       : HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2023-07-24T22:29:19.424+03:00  INFO 91144 --- [main] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2023-07-24T22:29:19.906+03:00  WARN 91144 --- [main] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2023-07-24T22:29:20.342+03:00  INFO 91144 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8100 (http) with context path ''
+2023-07-24T22:29:20.354+03:00  INFO 91144 --- [main] c.e.couriercase.CouriercaseApplication   : Started CouriercaseApplication in 5.222 seconds (process running for 5.7)
+2023-07-24T22:29:28.207+03:00  INFO 91144 --- [http-nio-8100-exec-1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2023-07-24T22:29:28.207+03:00  INFO 91144 --- [http-nio-8100-exec-1] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2023-07-24T22:29:28.210+03:00  INFO 91144 --- [http-nio-8100-exec-1] o.s.web.servlet.DispatcherServlet        : Completed initialization in 1 ms
+2023-07-24T22:29:28.674+03:00  INFO 91144 --- [http-nio-8100-exec-1] c.e.couriercase.service.CourierService   : Courier with id number 1 is about 18,86 meters close to the store named Ataþehir MMM Migros.
+2023-07-24T22:29:28.685+03:00  INFO 91144 --- [http-nio-8100-exec-1] c.e.couriercase.service.CourierService   : Courier with id number 2 is about 56,79 meters close to the store named Novada MMM Migros.
+2023-07-24T22:29:28.695+03:00  INFO 91144 --- [http-nio-8100-exec-1] c.e.couriercase.service.CourierService   : Courier with id number 3 is about 3,07 meters close to the store named Beylikdüzü 5M Migros.
+2023-07-24T22:29:28.705+03:00  INFO 91144 --- [http-nio-8100-exec-1] c.e.couriercase.service.CourierService   : Courier with id number 4 is about 2,49 meters close to the store named Ortaköy MMM Migros.
+2023-07-24T22:29:28.718+03:00  INFO 91144 --- [http-nio-8100-exec-1] c.e.couriercase.service.CourierService   : Courier with id number 5 is about 2,28 meters close to the store named Caddebostan MMM Migros.
+2023-07-24T22:33:37.933+03:00  INFO 11248 --- [main] c.e.couriercase.CouriercaseApplication   : Starting CouriercaseApplication using Java 17.0.7 with PID 11248 (C:\Users\MEHMET\Desktop\MÝGROS\migros-courier-case\target\classes started by MEHMET in C:\Users\MEHMET\Desktop\MÝGROS\migros-courier-case)
+2023-07-24T22:33:37.936+03:00  INFO 11248 --- [main] c.e.couriercase.CouriercaseApplication   : No active profile set, falling back to 1 default profile: "default"
+2023-07-24T22:33:38.836+03:00  INFO 11248 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2023-07-24T22:33:38.930+03:00  INFO 11248 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 82 ms. Found 2 JPA repository interfaces.
+2023-07-24T22:33:39.654+03:00  INFO 11248 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8100 (http)
+2023-07-24T22:33:39.667+03:00  INFO 11248 --- [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2023-07-24T22:33:39.668+03:00  INFO 11248 --- [main] o.apache.catalina.core.StandardEngine    : Starting Servlet engine: [Apache Tomcat/10.1.11]
+2023-07-24T22:33:39.801+03:00  INFO 11248 --- [main] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2023-07-24T22:33:39.802+03:00  INFO 11248 --- [main] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 1785 ms
+2023-07-24T22:33:39.859+03:00  INFO 11248 --- [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
+2023-07-24T22:33:40.059+03:00  INFO 11248 --- [main] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Added connection conn0: url=jdbc:h2:mem:couriertestdb user=SA
+2023-07-24T22:33:40.062+03:00  INFO 11248 --- [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
+2023-07-24T22:33:40.076+03:00  INFO 11248 --- [main] o.s.b.a.h2.H2ConsoleAutoConfiguration    : H2 console available at '/h2-console'. Database available at 'jdbc:h2:mem:couriertestdb'
+2023-07-24T22:33:40.248+03:00  INFO 11248 --- [main] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [name: default]
+2023-07-24T22:33:40.323+03:00  INFO 11248 --- [main] org.hibernate.Version                    : HHH000412: Hibernate ORM core version 6.2.6.Final
+2023-07-24T22:33:40.328+03:00  INFO 11248 --- [main] org.hibernate.cfg.Environment            : HHH000406: Using bytecode reflection optimizer
+2023-07-24T22:33:40.475+03:00  INFO 11248 --- [main] o.h.b.i.BytecodeProviderInitiator        : HHH000021: Bytecode provider name : bytebuddy
+2023-07-24T22:33:40.611+03:00  INFO 11248 --- [main] o.s.o.j.p.SpringPersistenceUnitInfo      : No LoadTimeWeaver setup: ignoring JPA class transformer
+2023-07-24T22:33:40.901+03:00  INFO 11248 --- [main] o.h.b.i.BytecodeProviderInitiator        : HHH000021: Bytecode provider name : bytebuddy
+2023-07-24T22:33:41.591+03:00  INFO 11248 --- [main] o.h.e.t.j.p.i.JtaPlatformInitiator       : HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2023-07-24T22:33:41.655+03:00  INFO 11248 --- [main] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2023-07-24T22:33:42.156+03:00  WARN 11248 --- [main] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2023-07-24T22:33:42.559+03:00  INFO 11248 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8100 (http) with context path ''
+2023-07-24T22:33:42.573+03:00  INFO 11248 --- [main] c.e.couriercase.CouriercaseApplication   : Started CouriercaseApplication in 5.104 seconds (process running for 5.633)
+2023-07-24T22:33:48.272+03:00  INFO 11248 --- [http-nio-8100-exec-2] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2023-07-24T22:33:48.273+03:00  INFO 11248 --- [http-nio-8100-exec-2] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2023-07-24T22:33:48.275+03:00  INFO 11248 --- [http-nio-8100-exec-2] o.s.web.servlet.DispatcherServlet        : Completed initialization in 2 ms
+2023-07-24T22:33:48.744+03:00  INFO 11248 --- [http-nio-8100-exec-2] c.e.couriercase.service.CourierService   : Courier with id number 1 is about 18,86 meters close to the store named Ataþehir MMM Migros.
+2023-07-24T22:33:48.756+03:00  INFO 11248 --- [http-nio-8100-exec-2] c.e.couriercase.service.CourierService   : Courier with id number 2 is about 56,79 meters close to the store named Novada MMM Migros.
+2023-07-24T22:33:48.769+03:00  INFO 11248 --- [http-nio-8100-exec-2] c.e.couriercase.service.CourierService   : Courier with id number 3 is about 3,07 meters close to the store named Beylikdüzü 5M Migros.
+2023-07-24T22:33:48.781+03:00  INFO 11248 --- [http-nio-8100-exec-2] c.e.couriercase.service.CourierService   : Courier with id number 4 is about 2,49 meters close to the store named Ortaköy MMM Migros.
+2023-07-24T22:33:48.794+03:00  INFO 11248 --- [http-nio-8100-exec-2] c.e.couriercase.service.CourierService   : Courier with id number 5 is about 2,28 meters close to the store named Caddebostan MMM Migros.
+2023-07-24T22:34:50.982+03:00  INFO 87980 --- [main] c.e.c.CouriercaseApplicationTests        : Starting CouriercaseApplicationTests using Java 17.0.3.1 with PID 87980 (started by MEHMET in C:\Users\MEHMET\Desktop\MÝGROS\migros-courier-case)
+2023-07-24T22:34:50.984+03:00  INFO 87980 --- [main] c.e.c.CouriercaseApplicationTests        : No active profile set, falling back to 1 default profile: "default"
+2023-07-24T22:34:51.889+03:00  INFO 87980 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2023-07-24T22:34:51.969+03:00  INFO 87980 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 68 ms. Found 2 JPA repository interfaces.
+2023-07-24T22:34:52.465+03:00  INFO 87980 --- [main] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [name: default]
+2023-07-24T22:34:52.519+03:00  INFO 87980 --- [main] org.hibernate.Version                    : HHH000412: Hibernate ORM core version 6.2.6.Final
+2023-07-24T22:34:52.521+03:00  INFO 87980 --- [main] org.hibernate.cfg.Environment            : HHH000406: Using bytecode reflection optimizer
+2023-07-24T22:34:52.769+03:00  INFO 87980 --- [main] o.h.b.i.BytecodeProviderInitiator        : HHH000021: Bytecode provider name : bytebuddy
+2023-07-24T22:34:52.931+03:00  INFO 87980 --- [main] o.s.o.j.p.SpringPersistenceUnitInfo      : No LoadTimeWeaver setup: ignoring JPA class transformer
+2023-07-24T22:34:52.948+03:00  INFO 87980 --- [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
+2023-07-24T22:34:53.112+03:00  INFO 87980 --- [main] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Added connection conn0: url=jdbc:h2:mem:couriertestdb user=SA
+2023-07-24T22:34:53.114+03:00  INFO 87980 --- [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
+2023-07-24T22:34:53.323+03:00  INFO 87980 --- [main] o.h.b.i.BytecodeProviderInitiator        : HHH000021: Bytecode provider name : bytebuddy
+2023-07-24T22:34:53.876+03:00  INFO 87980 --- [main] o.h.e.t.j.p.i.JtaPlatformInitiator       : HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2023-07-24T22:34:53.917+03:00  INFO 87980 --- [main] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2023-07-24T22:34:54.548+03:00  WARN 87980 --- [main] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2023-07-24T22:34:54.953+03:00  INFO 87980 --- [main] o.s.b.a.h2.H2ConsoleAutoConfiguration    : H2 console available at '/h2-console'. Database available at 'jdbc:h2:mem:couriertestdb'
+2023-07-24T22:34:54.997+03:00  INFO 87980 --- [main] c.e.c.CouriercaseApplicationTests        : Started CouriercaseApplicationTests in 4.374 seconds (process running for 5.372)
+2023-07-24T22:34:55.573+03:00  INFO 87980 --- [SpringApplicationShutdownHook] j.LocalContainerEntityManagerFactoryBean : Closing JPA EntityManagerFactory for persistence unit 'default'
+2023-07-24T22:34:55.775+03:00  INFO 87980 --- [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown initiated...
+2023-07-24T22:34:55.783+03:00  INFO 87980 --- [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown completed.
+2023-07-24T22:56:15.611+03:00  INFO 91072 --- [main] c.e.couriercase.CouriercaseApplication   : Starting CouriercaseApplication using Java 17.0.7 with PID 91072 (C:\Users\MEHMET\Desktop\MÝGROS\migros-courier-case\target\classes started by MEHMET in C:\Users\MEHMET\Desktop\MÝGROS\migros-courier-case)
+2023-07-24T22:56:15.614+03:00  INFO 91072 --- [main] c.e.couriercase.CouriercaseApplication   : No active profile set, falling back to 1 default profile: "default"
+2023-07-24T22:56:16.560+03:00  INFO 91072 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2023-07-24T22:56:16.649+03:00  INFO 91072 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 75 ms. Found 2 JPA repository interfaces.
+2023-07-24T22:56:17.442+03:00  INFO 91072 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8100 (http)
+2023-07-24T22:56:17.455+03:00  INFO 91072 --- [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2023-07-24T22:56:17.456+03:00  INFO 91072 --- [main] o.apache.catalina.core.StandardEngine    : Starting Servlet engine: [Apache Tomcat/10.1.11]
+2023-07-24T22:56:17.599+03:00  INFO 91072 --- [main] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2023-07-24T22:56:17.600+03:00  INFO 91072 --- [main] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 1894 ms
+2023-07-24T22:56:17.651+03:00  INFO 91072 --- [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
+2023-07-24T22:56:17.859+03:00  INFO 91072 --- [main] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Added connection conn0: url=jdbc:h2:mem:couriertestdb user=SA
+2023-07-24T22:56:17.862+03:00  INFO 91072 --- [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
+2023-07-24T22:56:17.876+03:00  INFO 91072 --- [main] o.s.b.a.h2.H2ConsoleAutoConfiguration    : H2 console available at '/h2-console'. Database available at 'jdbc:h2:mem:couriertestdb'
+2023-07-24T22:56:18.041+03:00  INFO 91072 --- [main] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [name: default]
+2023-07-24T22:56:18.115+03:00  INFO 91072 --- [main] org.hibernate.Version                    : HHH000412: Hibernate ORM core version 6.2.6.Final
+2023-07-24T22:56:18.118+03:00  INFO 91072 --- [main] org.hibernate.cfg.Environment            : HHH000406: Using bytecode reflection optimizer
+2023-07-24T22:56:18.282+03:00  INFO 91072 --- [main] o.h.b.i.BytecodeProviderInitiator        : HHH000021: Bytecode provider name : bytebuddy
+2023-07-24T22:56:18.420+03:00  INFO 91072 --- [main] o.s.o.j.p.SpringPersistenceUnitInfo      : No LoadTimeWeaver setup: ignoring JPA class transformer
+2023-07-24T22:56:18.701+03:00  INFO 91072 --- [main] o.h.b.i.BytecodeProviderInitiator        : HHH000021: Bytecode provider name : bytebuddy
+2023-07-24T22:56:19.319+03:00  INFO 91072 --- [main] o.h.e.t.j.p.i.JtaPlatformInitiator       : HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2023-07-24T22:56:19.364+03:00  INFO 91072 --- [main] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2023-07-24T22:56:19.950+03:00  WARN 91072 --- [main] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2023-07-24T22:56:20.592+03:00  INFO 91072 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8100 (http) with context path ''
+2023-07-24T22:56:20.603+03:00  INFO 91072 --- [main] c.e.couriercase.CouriercaseApplication   : Started CouriercaseApplication in 5.541 seconds (process running for 6.095)
+2023-07-24T22:56:26.877+03:00  INFO 91072 --- [http-nio-8100-exec-1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2023-07-24T22:56:26.878+03:00  INFO 91072 --- [http-nio-8100-exec-1] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2023-07-24T22:56:26.881+03:00  INFO 91072 --- [http-nio-8100-exec-1] o.s.web.servlet.DispatcherServlet        : Completed initialization in 2 ms
+2023-07-24T22:56:27.714+03:00  INFO 91072 --- [http-nio-8100-exec-9] o.springdoc.api.AbstractOpenApiResource  : Init duration for springdoc-openapi is: 255 ms
+2023-07-24T23:12:02.730+03:00  INFO 94068 --- [main] c.e.couriercase.CouriercaseApplication   : Starting CouriercaseApplication using Java 17.0.3.1 with PID 94068 (C:\Users\MEHMET\Desktop\MÝGROS\migros-courier-case\target\classes started by MEHMET in C:\Users\MEHMET\Desktop\MÝGROS\migros-courier-case)
+2023-07-24T23:12:02.733+03:00  INFO 94068 --- [main] c.e.couriercase.CouriercaseApplication   : No active profile set, falling back to 1 default profile: "default"
+2023-07-24T23:12:03.285+03:00  INFO 94068 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2023-07-24T23:12:03.343+03:00  INFO 94068 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 51 ms. Found 2 JPA repository interfaces.
+2023-07-24T23:12:03.805+03:00  INFO 94068 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8100 (http)
+2023-07-24T23:12:03.814+03:00  INFO 94068 --- [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2023-07-24T23:12:03.815+03:00  INFO 94068 --- [main] o.apache.catalina.core.StandardEngine    : Starting Servlet engine: [Apache Tomcat/10.1.11]
+2023-07-24T23:12:03.898+03:00  INFO 94068 --- [main] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2023-07-24T23:12:03.898+03:00  INFO 94068 --- [main] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 1103 ms
+2023-07-24T23:12:03.922+03:00  INFO 94068 --- [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
+2023-07-24T23:12:04.058+03:00  INFO 94068 --- [main] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Added connection conn0: url=jdbc:h2:mem:couriertestdb user=SA
+2023-07-24T23:12:04.060+03:00  INFO 94068 --- [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
+2023-07-24T23:12:04.067+03:00  INFO 94068 --- [main] o.s.b.a.h2.H2ConsoleAutoConfiguration    : H2 console available at '/h2-console'. Database available at 'jdbc:h2:mem:couriertestdb'
+2023-07-24T23:12:04.150+03:00  INFO 94068 --- [main] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [name: default]
+2023-07-24T23:12:04.189+03:00  INFO 94068 --- [main] org.hibernate.Version                    : HHH000412: Hibernate ORM core version 6.2.6.Final
+2023-07-24T23:12:04.191+03:00  INFO 94068 --- [main] org.hibernate.cfg.Environment            : HHH000406: Using bytecode reflection optimizer
+2023-07-24T23:12:04.293+03:00  INFO 94068 --- [main] o.h.b.i.BytecodeProviderInitiator        : HHH000021: Bytecode provider name : bytebuddy
+2023-07-24T23:12:04.388+03:00  INFO 94068 --- [main] o.s.o.j.p.SpringPersistenceUnitInfo      : No LoadTimeWeaver setup: ignoring JPA class transformer
+2023-07-24T23:12:04.542+03:00  INFO 94068 --- [main] o.h.b.i.BytecodeProviderInitiator        : HHH000021: Bytecode provider name : bytebuddy
+2023-07-24T23:12:05.018+03:00  INFO 94068 --- [main] o.h.e.t.j.p.i.JtaPlatformInitiator       : HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2023-07-24T23:12:05.054+03:00  INFO 94068 --- [main] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2023-07-24T23:12:05.410+03:00  WARN 94068 --- [main] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2023-07-24T23:12:05.669+03:00  WARN 94068 --- [main] ConfigServletWebServerApplicationContext : Exception encountered during context initialization - cancelling refresh attempt: org.springframework.context.ApplicationContextException: Failed to start bean 'webServerStartStop'
+2023-07-24T23:12:05.670+03:00  INFO 94068 --- [main] j.LocalContainerEntityManagerFactoryBean : Closing JPA EntityManagerFactory for persistence unit 'default'
+2023-07-24T23:12:05.680+03:00  INFO 94068 --- [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown initiated...
+2023-07-24T23:12:05.682+03:00  INFO 94068 --- [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown completed.
+2023-07-24T23:12:05.684+03:00  INFO 94068 --- [main] o.apache.catalina.core.StandardService   : Stopping service [Tomcat]
+2023-07-24T23:12:05.703+03:00  INFO 94068 --- [main] .s.b.a.l.ConditionEvaluationReportLogger : 
+
+Error starting ApplicationContext. To display the condition evaluation report re-run your application with 'debug' enabled.
+2023-07-24T23:12:05.715+03:00 ERROR 94068 --- [main] o.s.b.d.LoggingFailureAnalysisReporter   : 
+
+***************************
+APPLICATION FAILED TO START
+***************************
+
+Description:
+
+Web server failed to start. Port 8100 was already in use.
+
+Action:
+
+Identify and stop the process that's listening on port 8100 or configure this application to listen on another port.
+
+2023-07-24T23:44:05.747+03:00  INFO 64348 --- [main] c.e.c.CouriercaseApplicationTests        : Starting CouriercaseApplicationTests using Java 17.0.3.1 with PID 64348 (started by MEHMET in C:\Users\MEHMET\Desktop\MÝGROS\migros-courier-case)
+2023-07-24T23:44:05.749+03:00  INFO 64348 --- [main] c.e.c.CouriercaseApplicationTests        : No active profile set, falling back to 1 default profile: "default"
+2023-07-24T23:44:06.710+03:00  INFO 64348 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2023-07-24T23:44:06.793+03:00  INFO 64348 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 70 ms. Found 2 JPA repository interfaces.
+2023-07-24T23:44:07.267+03:00  INFO 64348 --- [main] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [name: default]
+2023-07-24T23:44:07.321+03:00  INFO 64348 --- [main] org.hibernate.Version                    : HHH000412: Hibernate ORM core version 6.2.6.Final
+2023-07-24T23:44:07.324+03:00  INFO 64348 --- [main] org.hibernate.cfg.Environment            : HHH000406: Using bytecode reflection optimizer
+2023-07-24T23:44:07.570+03:00  INFO 64348 --- [main] o.h.b.i.BytecodeProviderInitiator        : HHH000021: Bytecode provider name : bytebuddy
+2023-07-24T23:44:07.724+03:00  INFO 64348 --- [main] o.s.o.j.p.SpringPersistenceUnitInfo      : No LoadTimeWeaver setup: ignoring JPA class transformer
+2023-07-24T23:44:07.741+03:00  INFO 64348 --- [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
+2023-07-24T23:44:07.902+03:00  INFO 64348 --- [main] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Added connection conn0: url=jdbc:h2:mem:couriertestdb user=SA
+2023-07-24T23:44:07.904+03:00  INFO 64348 --- [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
+2023-07-24T23:44:08.087+03:00  INFO 64348 --- [main] o.h.b.i.BytecodeProviderInitiator        : HHH000021: Bytecode provider name : bytebuddy
+2023-07-24T23:44:08.604+03:00  INFO 64348 --- [main] o.h.e.t.j.p.i.JtaPlatformInitiator       : HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2023-07-24T23:44:08.639+03:00  INFO 64348 --- [main] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2023-07-24T23:44:09.291+03:00  WARN 64348 --- [main] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2023-07-24T23:44:09.685+03:00  INFO 64348 --- [main] o.s.b.a.h2.H2ConsoleAutoConfiguration    : H2 console available at '/h2-console'. Database available at 'jdbc:h2:mem:couriertestdb'
+2023-07-24T23:44:09.733+03:00  INFO 64348 --- [main] c.e.c.CouriercaseApplicationTests        : Started CouriercaseApplicationTests in 4.3 seconds (process running for 5.195)
+2023-07-24T23:44:10.273+03:00  INFO 64348 --- [SpringApplicationShutdownHook] j.LocalContainerEntityManagerFactoryBean : Closing JPA EntityManagerFactory for persistence unit 'default'
+2023-07-24T23:44:10.475+03:00  INFO 64348 --- [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown initiated...
+2023-07-24T23:44:10.486+03:00  INFO 64348 --- [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown completed.

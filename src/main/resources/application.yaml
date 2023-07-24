@@ -1,0 +1,33 @@
+server:
+  port: 8100
+spring:
+  application:
+    name: com.emin.couriercase
+  jackson:
+    date-format: yyyy-MM-dd HH:mm:ss
+  datasource:
+    url: jdbc:h2:mem:couriertestdb
+    driverClassName: org.h2.Driver
+    username: sa
+    password: password
+  jpa:
+    database-platform: org.hibernate.dialect.H2Dialect
+    show-sql: true
+    database: h2
+    generate-ddl: false
+    hibernate:
+      ddl-auto: create-drop
+    properties:
+      format_sql: true
+  h2:
+    console.enabled: true
+
+logging:
+  file:
+    name: ./logs/${spring.application.name}.log
+    charset: UTF-8
+
+springdoc:
+  swagger-ui:
+    path: /swagger-ui.html
+    tags-sorter: alpha

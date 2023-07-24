@@ -8,6 +8,8 @@ import lombok.NoArgsConstructor;
 
 import java.time.LocalDateTime;
 
+import com.fasterxml.jackson.annotation.JsonFormat;
+
 @Entity
 @NoArgsConstructor
 @AllArgsConstructor
@@ -21,5 +23,6 @@ public class CourierStoreMatch {
     private Integer id;
     private Integer courierId;
     private String storeName;
+    @JsonFormat(pattern = "yyyy-MM-dd HH:mm:ss")
     private LocalDateTime lastTime;
 }
